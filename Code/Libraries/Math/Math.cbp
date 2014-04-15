@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Math" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Debug/libMath" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="../Core/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../Core/src" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release/libMath" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="../Core/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../Core/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Final Win32">
+				<Option output="Final Win32/libMath" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Final Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-D_FINAL" />
+					<Add directory="../Core/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../Core/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/aabb.cpp" />
+		<Unit filename="src/aabb.h" />
+		<Unit filename="src/angles.cpp" />
+		<Unit filename="src/angles.h" />
+		<Unit filename="src/box2d.cpp" />
+		<Unit filename="src/box2d.h" />
+		<Unit filename="src/collisioninfo.cpp" />
+		<Unit filename="src/collisioninfo.h" />
+		<Unit filename="src/collisioninfo2d.cpp" />
+		<Unit filename="src/collisioninfo2d.h" />
+		<Unit filename="src/collisionmesh.cpp" />
+		<Unit filename="src/collisionmesh.h" />
+		<Unit filename="src/collisiontriangle.cpp" />
+		<Unit filename="src/collisiontriangle.h" />
+		<Unit filename="src/crypto.cpp" />
+		<Unit filename="src/crypto.h" />
+		<Unit filename="src/cylinder.cpp" />
+		<Unit filename="src/cylinder.h" />
+		<Unit filename="src/ellipsoid.cpp" />
+		<Unit filename="src/ellipsoid.h" />
+		<Unit filename="src/frustum.cpp" />
+		<Unit filename="src/frustum.h" />
+		<Unit filename="src/hsv.cpp" />
+		<Unit filename="src/hsv.h" />
+		<Unit filename="src/line.cpp" />
+		<Unit filename="src/line.h" />
+		<Unit filename="src/mathfunc.cpp" />
+		<Unit filename="src/mathfunc.h" />
+		<Unit filename="src/matrix.cpp" />
+		<Unit filename="src/matrix.h" />
+		<Unit filename="src/noise.cpp" />
+		<Unit filename="src/noise.h" />
+		<Unit filename="src/plane.cpp" />
+		<Unit filename="src/plane.h" />
+		<Unit filename="src/quat.cpp" />
+		<Unit filename="src/quat.h" />
+		<Unit filename="src/random.cpp" />
+		<Unit filename="src/random.h" />
+		<Unit filename="src/ray.cpp" />
+		<Unit filename="src/ray.h" />
+		<Unit filename="src/segment.cpp" />
+		<Unit filename="src/segment.h" />
+		<Unit filename="src/segment2d.cpp" />
+		<Unit filename="src/segment2d.h" />
+		<Unit filename="src/sphere.cpp" />
+		<Unit filename="src/sphere.h" />
+		<Unit filename="src/triangle.cpp" />
+		<Unit filename="src/triangle.h" />
+		<Unit filename="src/triangle2d.cpp" />
+		<Unit filename="src/triangle2d.h" />
+		<Unit filename="src/vector.cpp" />
+		<Unit filename="src/vector.h" />
+		<Unit filename="src/vector2.cpp" />
+		<Unit filename="src/vector2.h" />
+		<Unit filename="src/vector4.cpp" />
+		<Unit filename="src/vector4.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

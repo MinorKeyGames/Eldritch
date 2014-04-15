@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B53BB0518231B26009DA897 /* wbactionuipushscreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAD318231B26009DA897 /* wbactionuipushscreen.cpp */; };
+		6B53BB0618231B26009DA897 /* wbactionuipushscreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAD418231B26009DA897 /* wbactionuipushscreen.h */; };
+		6B53BB0718231B26009DA897 /* wbactionuisetwidgetimage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAD518231B26009DA897 /* wbactionuisetwidgetimage.cpp */; };
+		6B53BB0818231B26009DA897 /* wbactionuisetwidgetimage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAD618231B26009DA897 /* wbactionuisetwidgetimage.h */; };
+		6B53BB0918231B26009DA897 /* wbactionuishowhidewidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAD718231B26009DA897 /* wbactionuishowhidewidget.cpp */; };
+		6B53BB0A18231B26009DA897 /* wbactionuishowhidewidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAD818231B26009DA897 /* wbactionuishowhidewidget.h */; };
+		6B53BB0B18231B26009DA897 /* wbactionuishowyesnodialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAD918231B26009DA897 /* wbactionuishowyesnodialog.cpp */; };
+		6B53BB0C18231B26009DA897 /* wbactionuishowyesnodialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BADA18231B26009DA897 /* wbactionuishowyesnodialog.h */; };
+		6B53BB0D18231B26009DA897 /* uimanagercommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BADC18231B26009DA897 /* uimanagercommon.cpp */; };
+		6B53BB0E18231B26009DA897 /* uimanagercommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BADD18231B26009DA897 /* uimanagercommon.h */; };
+		6B53BB0F18231B26009DA897 /* iuiinputmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BADE18231B26009DA897 /* iuiinputmap.h */; };
+		6B53BB1018231B26009DA897 /* uiscreen-base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAE018231B26009DA897 /* uiscreen-base.cpp */; };
+		6B53BB1118231B26009DA897 /* uiscreen-base.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAE118231B26009DA897 /* uiscreen-base.h */; };
+		6B53BB1218231B26009DA897 /* uiscreen-fade.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAE218231B26009DA897 /* uiscreen-fade.cpp */; };
+		6B53BB1318231B26009DA897 /* uiscreen-fade.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAE318231B26009DA897 /* uiscreen-fade.h */; };
+		6B53BB1418231B26009DA897 /* uiscreen-okdialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAE418231B26009DA897 /* uiscreen-okdialog.cpp */; };
+		6B53BB1518231B26009DA897 /* uiscreen-okdialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAE518231B26009DA897 /* uiscreen-okdialog.h */; };
+		6B53BB1618231B26009DA897 /* uiscreen-waitdialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAE618231B26009DA897 /* uiscreen-waitdialog.cpp */; };
+		6B53BB1718231B26009DA897 /* uiscreen-waitdialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAE718231B26009DA897 /* uiscreen-waitdialog.h */; };
+		6B53BB1818231B26009DA897 /* uiscreen-yesnodialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAE818231B26009DA897 /* uiscreen-yesnodialog.cpp */; };
+		6B53BB1918231B26009DA897 /* uiscreen-yesnodialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAE918231B26009DA897 /* uiscreen-yesnodialog.h */; };
+		6B53BB1A18231B26009DA897 /* ui.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAEA18231B26009DA897 /* ui.h */; };
+		6B53BB1B18231B26009DA897 /* uifactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAEB18231B26009DA897 /* uifactory.cpp */; };
+		6B53BB1C18231B26009DA897 /* uifactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAEC18231B26009DA897 /* uifactory.h */; };
+		6B53BB1D18231B26009DA897 /* uimanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAED18231B26009DA897 /* uimanager.cpp */; };
+		6B53BB1E18231B26009DA897 /* uimanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAEE18231B26009DA897 /* uimanager.h */; };
+		6B53BB1F18231B26009DA897 /* uiscreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAEF18231B26009DA897 /* uiscreen.cpp */; };
+		6B53BB2018231B26009DA897 /* uiscreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAF018231B26009DA897 /* uiscreen.h */; };
+		6B53BB2118231B26009DA897 /* uiscreens.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAF118231B26009DA897 /* uiscreens.h */; };
+		6B53BB2218231B26009DA897 /* uistack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAF218231B26009DA897 /* uistack.cpp */; };
+		6B53BB2318231B26009DA897 /* uistack.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAF318231B26009DA897 /* uistack.h */; };
+		6B53BB2418231B26009DA897 /* uiwbactions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAF418231B26009DA897 /* uiwbactions.h */; };
+		6B53BB2518231B26009DA897 /* uiwidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAF518231B26009DA897 /* uiwidget.cpp */; };
+		6B53BB2618231B26009DA897 /* uiwidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAF618231B26009DA897 /* uiwidget.h */; };
+		6B53BB2718231B26009DA897 /* uiwidgets.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAF718231B26009DA897 /* uiwidgets.h */; };
+		6B53BB2818231B26009DA897 /* uiwidget-composite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAF918231B26009DA897 /* uiwidget-composite.cpp */; };
+		6B53BB2918231B26009DA897 /* uiwidget-composite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAFA18231B26009DA897 /* uiwidget-composite.h */; };
+		6B53BB2A18231B26009DA897 /* uiwidget-frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAFB18231B26009DA897 /* uiwidget-frame.cpp */; };
+		6B53BB2B18231B26009DA897 /* uiwidget-frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAFC18231B26009DA897 /* uiwidget-frame.h */; };
+		6B53BB2C18231B26009DA897 /* uiwidget-image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAFD18231B26009DA897 /* uiwidget-image.cpp */; };
+		6B53BB2D18231B26009DA897 /* uiwidget-image.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BAFE18231B26009DA897 /* uiwidget-image.h */; };
+		6B53BB2E18231B26009DA897 /* uiwidget-slider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BAFF18231B26009DA897 /* uiwidget-slider.cpp */; };
+		6B53BB2F18231B26009DA897 /* uiwidget-slider.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BB0018231B26009DA897 /* uiwidget-slider.h */; };
+		6B53BB3018231B26009DA897 /* uiwidget-spacer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BB0118231B26009DA897 /* uiwidget-spacer.cpp */; };
+		6B53BB3118231B26009DA897 /* uiwidget-spacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BB0218231B26009DA897 /* uiwidget-spacer.h */; };
+		6B53BB3218231B26009DA897 /* uiwidget-text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BB0318231B26009DA897 /* uiwidget-text.cpp */; };
+		6B53BB3318231B26009DA897 /* uiwidget-text.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BB0418231B26009DA897 /* uiwidget-text.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B53B8DC18231A99009DA897 /* libUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B53BAD318231B26009DA897 /* wbactionuipushscreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbactionuipushscreen.cpp; sourceTree = "<group>"; };
+		6B53BAD418231B26009DA897 /* wbactionuipushscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbactionuipushscreen.h; sourceTree = "<group>"; };
+		6B53BAD518231B26009DA897 /* wbactionuisetwidgetimage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbactionuisetwidgetimage.cpp; sourceTree = "<group>"; };
+		6B53BAD618231B26009DA897 /* wbactionuisetwidgetimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbactionuisetwidgetimage.h; sourceTree = "<group>"; };
+		6B53BAD718231B26009DA897 /* wbactionuishowhidewidget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbactionuishowhidewidget.cpp; sourceTree = "<group>"; };
+		6B53BAD818231B26009DA897 /* wbactionuishowhidewidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbactionuishowhidewidget.h; sourceTree = "<group>"; };
+		6B53BAD918231B26009DA897 /* wbactionuishowyesnodialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbactionuishowyesnodialog.cpp; sourceTree = "<group>"; };
+		6B53BADA18231B26009DA897 /* wbactionuishowyesnodialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbactionuishowyesnodialog.h; sourceTree = "<group>"; };
+		6B53BADC18231B26009DA897 /* uimanagercommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uimanagercommon.cpp; sourceTree = "<group>"; };
+		6B53BADD18231B26009DA897 /* uimanagercommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uimanagercommon.h; sourceTree = "<group>"; };
+		6B53BADE18231B26009DA897 /* iuiinputmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iuiinputmap.h; sourceTree = "<group>"; };
+		6B53BAE018231B26009DA897 /* uiscreen-base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiscreen-base.cpp"; sourceTree = "<group>"; };
+		6B53BAE118231B26009DA897 /* uiscreen-base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiscreen-base.h"; sourceTree = "<group>"; };
+		6B53BAE218231B26009DA897 /* uiscreen-fade.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiscreen-fade.cpp"; sourceTree = "<group>"; };
+		6B53BAE318231B26009DA897 /* uiscreen-fade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiscreen-fade.h"; sourceTree = "<group>"; };
+		6B53BAE418231B26009DA897 /* uiscreen-okdialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiscreen-okdialog.cpp"; sourceTree = "<group>"; };
+		6B53BAE518231B26009DA897 /* uiscreen-okdialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiscreen-okdialog.h"; sourceTree = "<group>"; };
+		6B53BAE618231B26009DA897 /* uiscreen-waitdialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiscreen-waitdialog.cpp"; sourceTree = "<group>"; };
+		6B53BAE718231B26009DA897 /* uiscreen-waitdialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiscreen-waitdialog.h"; sourceTree = "<group>"; };
+		6B53BAE818231B26009DA897 /* uiscreen-yesnodialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiscreen-yesnodialog.cpp"; sourceTree = "<group>"; };
+		6B53BAE918231B26009DA897 /* uiscreen-yesnodialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiscreen-yesnodialog.h"; sourceTree = "<group>"; };
+		6B53BAEA18231B26009DA897 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		6B53BAEB18231B26009DA897 /* uifactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uifactory.cpp; sourceTree = "<group>"; };
+		6B53BAEC18231B26009DA897 /* uifactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uifactory.h; sourceTree = "<group>"; };
+		6B53BAED18231B26009DA897 /* uimanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uimanager.cpp; sourceTree = "<group>"; };
+		6B53BAEE18231B26009DA897 /* uimanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uimanager.h; sourceTree = "<group>"; };
+		6B53BAEF18231B26009DA897 /* uiscreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiscreen.cpp; sourceTree = "<group>"; };
+		6B53BAF018231B26009DA897 /* uiscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiscreen.h; sourceTree = "<group>"; };
+		6B53BAF118231B26009DA897 /* uiscreens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiscreens.h; sourceTree = "<group>"; };
+		6B53BAF218231B26009DA897 /* uistack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uistack.cpp; sourceTree = "<group>"; };
+		6B53BAF318231B26009DA897 /* uistack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uistack.h; sourceTree = "<group>"; };
+		6B53BAF418231B26009DA897 /* uiwbactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiwbactions.h; sourceTree = "<group>"; };
+		6B53BAF518231B26009DA897 /* uiwidget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiwidget.cpp; sourceTree = "<group>"; };
+		6B53BAF618231B26009DA897 /* uiwidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiwidget.h; sourceTree = "<group>"; };
+		6B53BAF718231B26009DA897 /* uiwidgets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiwidgets.h; sourceTree = "<group>"; };
+		6B53BAF918231B26009DA897 /* uiwidget-composite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiwidget-composite.cpp"; sourceTree = "<group>"; };
+		6B53BAFA18231B26009DA897 /* uiwidget-composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiwidget-composite.h"; sourceTree = "<group>"; };
+		6B53BAFB18231B26009DA897 /* uiwidget-frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiwidget-frame.cpp"; sourceTree = "<group>"; };
+		6B53BAFC18231B26009DA897 /* uiwidget-frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiwidget-frame.h"; sourceTree = "<group>"; };
+		6B53BAFD18231B26009DA897 /* uiwidget-image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiwidget-image.cpp"; sourceTree = "<group>"; };
+		6B53BAFE18231B26009DA897 /* uiwidget-image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiwidget-image.h"; sourceTree = "<group>"; };
+		6B53BAFF18231B26009DA897 /* uiwidget-slider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiwidget-slider.cpp"; sourceTree = "<group>"; };
+		6B53BB0018231B26009DA897 /* uiwidget-slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiwidget-slider.h"; sourceTree = "<group>"; };
+		6B53BB0118231B26009DA897 /* uiwidget-spacer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiwidget-spacer.cpp"; sourceTree = "<group>"; };
+		6B53BB0218231B26009DA897 /* uiwidget-spacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiwidget-spacer.h"; sourceTree = "<group>"; };
+		6B53BB0318231B26009DA897 /* uiwidget-text.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "uiwidget-text.cpp"; sourceTree = "<group>"; };
+		6B53BB0418231B26009DA897 /* uiwidget-text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "uiwidget-text.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B53B8D918231A99009DA897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B53B8D118231A99009DA897 = {
+			isa = PBXGroup;
+			children = (
+				6B53BAD118231B26009DA897 /* src */,
+				6B53B8DD18231A99009DA897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B53B8DD18231A99009DA897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B53B8DC18231A99009DA897 /* libUI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B53BAD118231B26009DA897 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BAD218231B26009DA897 /* Actions */,
+				6B53BADB18231B26009DA897 /* Common */,
+				6B53BADE18231B26009DA897 /* iuiinputmap.h */,
+				6B53BADF18231B26009DA897 /* Screens */,
+				6B53BAEA18231B26009DA897 /* ui.h */,
+				6B53BAEB18231B26009DA897 /* uifactory.cpp */,
+				6B53BAEC18231B26009DA897 /* uifactory.h */,
+				6B53BAED18231B26009DA897 /* uimanager.cpp */,
+				6B53BAEE18231B26009DA897 /* uimanager.h */,
+				6B53BAEF18231B26009DA897 /* uiscreen.cpp */,
+				6B53BAF018231B26009DA897 /* uiscreen.h */,
+				6B53BAF118231B26009DA897 /* uiscreens.h */,
+				6B53BAF218231B26009DA897 /* uistack.cpp */,
+				6B53BAF318231B26009DA897 /* uistack.h */,
+				6B53BAF418231B26009DA897 /* uiwbactions.h */,
+				6B53BAF518231B26009DA897 /* uiwidget.cpp */,
+				6B53BAF618231B26009DA897 /* uiwidget.h */,
+				6B53BAF718231B26009DA897 /* uiwidgets.h */,
+				6B53BAF818231B26009DA897 /* Widgets */,
+			);
+			name = src;
+			path = ../../Libraries/UI/src;
+			sourceTree = "<group>";
+		};
+		6B53BAD218231B26009DA897 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BAD318231B26009DA897 /* wbactionuipushscreen.cpp */,
+				6B53BAD418231B26009DA897 /* wbactionuipushscreen.h */,
+				6B53BAD518231B26009DA897 /* wbactionuisetwidgetimage.cpp */,
+				6B53BAD618231B26009DA897 /* wbactionuisetwidgetimage.h */,
+				6B53BAD718231B26009DA897 /* wbactionuishowhidewidget.cpp */,
+				6B53BAD818231B26009DA897 /* wbactionuishowhidewidget.h */,
+				6B53BAD918231B26009DA897 /* wbactionuishowyesnodialog.cpp */,
+				6B53BADA18231B26009DA897 /* wbactionuishowyesnodialog.h */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		6B53BADB18231B26009DA897 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BADC18231B26009DA897 /* uimanagercommon.cpp */,
+				6B53BADD18231B26009DA897 /* uimanagercommon.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6B53BADF18231B26009DA897 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BAE018231B26009DA897 /* uiscreen-base.cpp */,
+				6B53BAE118231B26009DA897 /* uiscreen-base.h */,
+				6B53BAE218231B26009DA897 /* uiscreen-fade.cpp */,
+				6B53BAE318231B26009DA897 /* uiscreen-fade.h */,
+				6B53BAE418231B26009DA897 /* uiscreen-okdialog.cpp */,
+				6B53BAE518231B26009DA897 /* uiscreen-okdialog.h */,
+				6B53BAE618231B26009DA897 /* uiscreen-waitdialog.cpp */,
+				6B53BAE718231B26009DA897 /* uiscreen-waitdialog.h */,
+				6B53BAE818231B26009DA897 /* uiscreen-yesnodialog.cpp */,
+				6B53BAE918231B26009DA897 /* uiscreen-yesnodialog.h */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6B53BAF818231B26009DA897 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BAF918231B26009DA897 /* uiwidget-composite.cpp */,
+				6B53BAFA18231B26009DA897 /* uiwidget-composite.h */,
+				6B53BAFB18231B26009DA897 /* uiwidget-frame.cpp */,
+				6B53BAFC18231B26009DA897 /* uiwidget-frame.h */,
+				6B53BAFD18231B26009DA897 /* uiwidget-image.cpp */,
+				6B53BAFE18231B26009DA897 /* uiwidget-image.h */,
+				6B53BAFF18231B26009DA897 /* uiwidget-slider.cpp */,
+				6B53BB0018231B26009DA897 /* uiwidget-slider.h */,
+				6B53BB0118231B26009DA897 /* uiwidget-spacer.cpp */,
+				6B53BB0218231B26009DA897 /* uiwidget-spacer.h */,
+				6B53BB0318231B26009DA897 /* uiwidget-text.cpp */,
+				6B53BB0418231B26009DA897 /* uiwidget-text.h */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B53B8DA18231A99009DA897 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53BB0618231B26009DA897 /* wbactionuipushscreen.h in Headers */,
+				6B53BB0818231B26009DA897 /* wbactionuisetwidgetimage.h in Headers */,
+				6B53BB0A18231B26009DA897 /* wbactionuishowhidewidget.h in Headers */,
+				6B53BB0C18231B26009DA897 /* wbactionuishowyesnodialog.h in Headers */,
+				6B53BB0E18231B26009DA897 /* uimanagercommon.h in Headers */,
+				6B53BB0F18231B26009DA897 /* iuiinputmap.h in Headers */,
+				6B53BB1118231B26009DA897 /* uiscreen-base.h in Headers */,
+				6B53BB1318231B26009DA897 /* uiscreen-fade.h in Headers */,
+				6B53BB1518231B26009DA897 /* uiscreen-okdialog.h in Headers */,
+				6B53BB1718231B26009DA897 /* uiscreen-waitdialog.h in Headers */,
+				6B53BB1918231B26009DA897 /* uiscreen-yesnodialog.h in Headers */,
+				6B53BB1A18231B26009DA897 /* ui.h in Headers */,
+				6B53BB1C18231B26009DA897 /* uifactory.h in Headers */,
+				6B53BB1E18231B26009DA897 /* uimanager.h in Headers */,
+				6B53BB2018231B26009DA897 /* uiscreen.h in Headers */,
+				6B53BB2118231B26009DA897 /* uiscreens.h in Headers */,
+				6B53BB2318231B26009DA897 /* uistack.h in Headers */,
+				6B53BB2418231B26009DA897 /* uiwbactions.h in Headers */,
+				6B53BB2618231B26009DA897 /* uiwidget.h in Headers */,
+				6B53BB2718231B26009DA897 /* uiwidgets.h in Headers */,
+				6B53BB2918231B26009DA897 /* uiwidget-composite.h in Headers */,
+				6B53BB2B18231B26009DA897 /* uiwidget-frame.h in Headers */,
+				6B53BB2D18231B26009DA897 /* uiwidget-image.h in Headers */,
+				6B53BB2F18231B26009DA897 /* uiwidget-slider.h in Headers */,
+				6B53BB3118231B26009DA897 /* uiwidget-spacer.h in Headers */,
+				6B53BB3318231B26009DA897 /* uiwidget-text.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B53B8DB18231A99009DA897 /* UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B53B8E018231A99009DA897 /* Build configuration list for PBXNativeTarget "UI" */;
+			buildPhases = (
+				6B53B8D818231A99009DA897 /* Sources */,
+				6B53B8D918231A99009DA897 /* Frameworks */,
+				6B53B8DA18231A99009DA897 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UI;
+			productName = UI;
+			productReference = 6B53B8DC18231A99009DA897 /* libUI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B53B8D318231A99009DA897 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6B53B8D618231A99009DA897 /* Build configuration list for PBXProject "UI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B53B8D118231A99009DA897;
+			productRefGroup = 6B53B8DD18231A99009DA897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B53B8DB18231A99009DA897 /* UI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B53B8D818231A99009DA897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53BB0518231B26009DA897 /* wbactionuipushscreen.cpp in Sources */,
+				6B53BB0718231B26009DA897 /* wbactionuisetwidgetimage.cpp in Sources */,
+				6B53BB0918231B26009DA897 /* wbactionuishowhidewidget.cpp in Sources */,
+				6B53BB0B18231B26009DA897 /* wbactionuishowyesnodialog.cpp in Sources */,
+				6B53BB0D18231B26009DA897 /* uimanagercommon.cpp in Sources */,
+				6B53BB1018231B26009DA897 /* uiscreen-base.cpp in Sources */,
+				6B53BB1218231B26009DA897 /* uiscreen-fade.cpp in Sources */,
+				6B53BB1418231B26009DA897 /* uiscreen-okdialog.cpp in Sources */,
+				6B53BB1618231B26009DA897 /* uiscreen-waitdialog.cpp in Sources */,
+				6B53BB1818231B26009DA897 /* uiscreen-yesnodialog.cpp in Sources */,
+				6B53BB1B18231B26009DA897 /* uifactory.cpp in Sources */,
+				6B53BB1D18231B26009DA897 /* uimanager.cpp in Sources */,
+				6B53BB1F18231B26009DA897 /* uiscreen.cpp in Sources */,
+				6B53BB2218231B26009DA897 /* uistack.cpp in Sources */,
+				6B53BB2518231B26009DA897 /* uiwidget.cpp in Sources */,
+				6B53BB2818231B26009DA897 /* uiwidget-composite.cpp in Sources */,
+				6B53BB2A18231B26009DA897 /* uiwidget-frame.cpp in Sources */,
+				6B53BB2C18231B26009DA897 /* uiwidget-image.cpp in Sources */,
+				6B53BB2E18231B26009DA897 /* uiwidget-slider.cpp in Sources */,
+				6B53BB3018231B26009DA897 /* uiwidget-spacer.cpp in Sources */,
+				6B53BB3218231B26009DA897 /* uiwidget-text.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B53B8DE18231A99009DA897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B53B8DF18231A99009DA897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B53B8E118231A99009DA897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					../../Libraries/UI/src,
+					../../Libraries/3D/src,
+					../../Libraries/Math/src,
+					../../Libraries/Core/src,
+					../../Libraries/Audio/src,
+					../../Libraries/Workbench/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		6B53B8E218231A99009DA897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = _FINAL;
+				HEADER_SEARCH_PATHS = (
+					../../Libraries/UI/src,
+					../../Libraries/3D/src,
+					../../Libraries/Math/src,
+					../../Libraries/Core/src,
+					../../Libraries/Audio/src,
+					../../Libraries/Workbench/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B53B8D618231A99009DA897 /* Build configuration list for PBXProject "UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53B8DE18231A99009DA897 /* Debug */,
+				6B53B8DF18231A99009DA897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B53B8E018231A99009DA897 /* Build configuration list for PBXNativeTarget "UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53B8E118231A99009DA897 /* Debug */,
+				6B53B8E218231A99009DA897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B53B8D318231A99009DA897 /* Project object */;
+}

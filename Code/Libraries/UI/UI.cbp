@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="UI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Debug/libUI" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../2D/src" />
+					<Add directory="../3D/src" />
+					<Add directory="../Audio/src" />
+					<Add directory="../Workbench/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../2D/src" />
+					<Add directory="../3D/Src" />
+					<Add directory="../Audio/src" />
+					<Add directory="../Workbench/src" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release/libUI" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../2D/src" />
+					<Add directory="../3D/src" />
+					<Add directory="../Audio/src" />
+					<Add directory="../Workbench/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../2D/src" />
+					<Add directory="../3D/Src" />
+					<Add directory="../Audio/src" />
+					<Add directory="../Workbench/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Final Win32">
+				<Option output="Final Win32/libUI" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Final Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-D_FINAL" />
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../2D/src" />
+					<Add directory="../3D/src" />
+					<Add directory="../Audio/src" />
+					<Add directory="../Workbench/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../2D/src" />
+					<Add directory="../3D/Src" />
+					<Add directory="../Audio/src" />
+					<Add directory="../Workbench/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/Actions/wbactionuipushscreen.cpp" />
+		<Unit filename="src/Actions/wbactionuipushscreen.h" />
+		<Unit filename="src/Actions/wbactionuisetwidgetimage.cpp" />
+		<Unit filename="src/Actions/wbactionuisetwidgetimage.h" />
+		<Unit filename="src/Actions/wbactionuishowhidewidget.cpp" />
+		<Unit filename="src/Actions/wbactionuishowhidewidget.h" />
+		<Unit filename="src/Actions/wbactionuishowyesnodialog.cpp" />
+		<Unit filename="src/Actions/wbactionuishowyesnodialog.h" />
+		<Unit filename="src/Common/uimanagercommon.cpp" />
+		<Unit filename="src/Common/uimanagercommon.h" />
+		<Unit filename="src/Screens/uiscreen-base.cpp" />
+		<Unit filename="src/Screens/uiscreen-base.h" />
+		<Unit filename="src/Screens/uiscreen-fade.cpp" />
+		<Unit filename="src/Screens/uiscreen-fade.h" />
+		<Unit filename="src/Screens/uiscreen-okdialog.cpp" />
+		<Unit filename="src/Screens/uiscreen-okdialog.h" />
+		<Unit filename="src/Screens/uiscreen-waitdialog.cpp" />
+		<Unit filename="src/Screens/uiscreen-waitdialog.h" />
+		<Unit filename="src/Screens/uiscreen-yesnodialog.cpp" />
+		<Unit filename="src/Screens/uiscreen-yesnodialog.h" />
+		<Unit filename="src/Widgets/uiwidget-composite.cpp" />
+		<Unit filename="src/Widgets/uiwidget-composite.h" />
+		<Unit filename="src/Widgets/uiwidget-frame.cpp" />
+		<Unit filename="src/Widgets/uiwidget-frame.h" />
+		<Unit filename="src/Widgets/uiwidget-image.cpp" />
+		<Unit filename="src/Widgets/uiwidget-image.h" />
+		<Unit filename="src/Widgets/uiwidget-slider.cpp" />
+		<Unit filename="src/Widgets/uiwidget-slider.h" />
+		<Unit filename="src/Widgets/uiwidget-spacer.cpp" />
+		<Unit filename="src/Widgets/uiwidget-spacer.h" />
+		<Unit filename="src/Widgets/uiwidget-text.cpp" />
+		<Unit filename="src/Widgets/uiwidget-text.h" />
+		<Unit filename="src/iuiinputmap.h" />
+		<Unit filename="src/ui.h" />
+		<Unit filename="src/uifactory.cpp" />
+		<Unit filename="src/uifactory.h" />
+		<Unit filename="src/uimanager.cpp" />
+		<Unit filename="src/uimanager.h" />
+		<Unit filename="src/uiscreen.cpp" />
+		<Unit filename="src/uiscreen.h" />
+		<Unit filename="src/uiscreens.h" />
+		<Unit filename="src/uistack.cpp" />
+		<Unit filename="src/uistack.h" />
+		<Unit filename="src/uiwbactions.h" />
+		<Unit filename="src/uiwidget.cpp" />
+		<Unit filename="src/uiwidget.h" />
+		<Unit filename="src/uiwidgets.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

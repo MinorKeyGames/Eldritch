@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Rodin" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="lib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Workbench/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Workbench/src" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="lib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Workbench/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Workbench/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Final Win32">
+				<Option output="Final Win32/libRodin" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Final Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-D_FINAL" />
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Workbench/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Workbench/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/Actions/wbactionrodinblackboardwrite.cpp" />
+		<Unit filename="src/Actions/wbactionrodinblackboardwrite.h" />
+		<Unit filename="src/BTNodes/rodinbtnodeblackboardwrite.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodeblackboardwrite.h" />
+		<Unit filename="src/BTNodes/rodinbtnodecastresult.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodecastresult.h" />
+		<Unit filename="src/BTNodes/rodinbtnodecomposite.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodecomposite.h" />
+		<Unit filename="src/BTNodes/rodinbtnodecompositesingular.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodecompositesingular.h" />
+		<Unit filename="src/BTNodes/rodinbtnodeconditionpe.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodeconditionpe.h" />
+		<Unit filename="src/BTNodes/rodinbtnodedecorator.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodedecorator.h" />
+		<Unit filename="src/BTNodes/rodinbtnodelog.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodelog.h" />
+		<Unit filename="src/BTNodes/rodinbtnodelookup.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodelookup.h" />
+		<Unit filename="src/BTNodes/rodinbtnodeloop.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodeloop.h" />
+		<Unit filename="src/BTNodes/rodinbtnodenull.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodenull.h" />
+		<Unit filename="src/BTNodes/rodinbtnodeparallel.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodeparallel.h" />
+		<Unit filename="src/BTNodes/rodinbtnodeplayactions.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodeplayactions.h" />
+		<Unit filename="src/BTNodes/rodinbtnodeselector.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodeselector.h" />
+		<Unit filename="src/BTNodes/rodinbtnodesendevent.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodesendevent.h" />
+		<Unit filename="src/BTNodes/rodinbtnodesequence.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodesequence.h" />
+		<Unit filename="src/BTNodes/rodinbtnodesleep.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodesleep.h" />
+		<Unit filename="src/BTNodes/rodinbtnodetimeout.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodetimeout.h" />
+		<Unit filename="src/BTNodes/rodinbtnodeuseresource.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodeuseresource.h" />
+		<Unit filename="src/BTNodes/rodinbtnodeusestatmod.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodeusestatmod.h" />
+		<Unit filename="src/BTNodes/rodinbtnodewait.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodewait.h" />
+		<Unit filename="src/BTNodes/rodinbtnodewaitforevent.cpp" />
+		<Unit filename="src/BTNodes/rodinbtnodewaitforevent.h" />
+		<Unit filename="src/Components/wbcomprodinbehaviortree.cpp" />
+		<Unit filename="src/Components/wbcomprodinbehaviortree.h" />
+		<Unit filename="src/Components/wbcomprodinblackboard.cpp" />
+		<Unit filename="src/Components/wbcomprodinblackboard.h" />
+		<Unit filename="src/Components/wbcomprodinknowledge.cpp" />
+		<Unit filename="src/Components/wbcomprodinknowledge.h" />
+		<Unit filename="src/Components/wbcomprodinresourcemap.cpp" />
+		<Unit filename="src/Components/wbcomprodinresourcemap.h" />
+		<Unit filename="src/PEs/wbperodinblackboardget.cpp" />
+		<Unit filename="src/PEs/wbperodinblackboardget.h" />
+		<Unit filename="src/PEs/wbperodingetlastknownlocation.cpp" />
+		<Unit filename="src/PEs/wbperodingetlastknownlocation.h" />
+		<Unit filename="src/PEs/wbperodingetlastknowntime.cpp" />
+		<Unit filename="src/PEs/wbperodingetlastknowntime.h" />
+		<Unit filename="src/irodinresourceuser.h" />
+		<Unit filename="src/rodinbtnode.cpp" />
+		<Unit filename="src/rodinbtnode.h" />
+		<Unit filename="src/rodinbtnodefactory.cpp" />
+		<Unit filename="src/rodinbtnodefactory.h" />
+		<Unit filename="src/rodinbtnodes.h" />
+		<Unit filename="src/rodinwbactions.h" />
+		<Unit filename="src/rodinwbcomponents.h" />
+		<Unit filename="src/rodinwbpes.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

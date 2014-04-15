@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="zlib" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Debug/libzlib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+				</Compiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release/libzlib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-W" />
+				</Compiler>
+			</Target>
+			<Target title="Final Win32">
+				<Option output="Final Win32/libzlib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Final Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/adler32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/compress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/crc32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/crc32.h" />
+		<Unit filename="src/deflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/deflate.h" />
+		<Unit filename="src/gzio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/infback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/inffast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/inffast.h" />
+		<Unit filename="src/inffixed.h" />
+		<Unit filename="src/inflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/inflate.h" />
+		<Unit filename="src/inftrees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/inftrees.h" />
+		<Unit filename="src/trees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/trees.h" />
+		<Unit filename="src/uncompr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zconf.h" />
+		<Unit filename="src/zlib.h" />
+		<Unit filename="src/zutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zutil.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,14 @@
+[ContentSyncer]
+Self					= "ContentSyncer.exe"
+TempSelf				= "ContentSyncerRelaunch.exe"
+RelaunchArg				= "-r"
+Application				= "Eldritch.exe"
+Title					= "ContentSyncer (Eldritch)"
+OnlyRedrawDirtyCells	= false
+Version					= "364"
+HTTPBufferSize			= 41943040
+PatcherHost				= "www.dphrygian.com"
+PatcherVersionPath		= "/eldritchpatch/version-final.txt"	# Changed so beta won't patch to final.
+PatcherManifestPath		= "/eldritchpatch/manifest.txt"
+PatcherContentPath		= "/eldritchpatch/content/"
+PatcherAgent			= "ContentSyncer (Eldritch)"

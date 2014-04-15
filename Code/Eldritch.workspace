@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Eldritch">
+		<Project filename="Libraries/Core/Core.cbp" />
+		<Project filename="Libraries/zlib/zlib.cbp" />
+		<Project filename="Libraries/Math/Math.cbp">
+			<Depends filename="Libraries/Core/Core.cbp" />
+		</Project>
+		<Project filename="Libraries/2D/2D.cbp" />
+		<Project filename="Libraries/3D/3D.cbp">
+			<Depends filename="Libraries/Core/Core.cbp" />
+			<Depends filename="Libraries/Math/Math.cbp" />
+		</Project>
+		<Project filename="Libraries/Audio/Audio.cbp" />
+		<Project filename="Libraries/Framework/Framework.cbp" />
+		<Project filename="Libraries/GLEW/GLEW.cbp" />
+		<Project filename="Libraries/Rodin/Rodin.cbp" />
+		<Project filename="Libraries/UI/UI.cbp" />
+		<Project filename="Libraries/Workbench/Workbench.cbp" />
+		<Project filename="Projects/Eldritch/Eldritch.cbp" active="1">
+			<Depends filename="Libraries/Core/Core.cbp" />
+			<Depends filename="Libraries/zlib/zlib.cbp" />
+			<Depends filename="Libraries/Math/Math.cbp" />
+			<Depends filename="Libraries/2D/2D.cbp" />
+			<Depends filename="Libraries/3D/3D.cbp" />
+			<Depends filename="Libraries/Audio/Audio.cbp" />
+			<Depends filename="Libraries/Framework/Framework.cbp" />
+			<Depends filename="Libraries/GLEW/GLEW.cbp" />
+			<Depends filename="Libraries/Rodin/Rodin.cbp" />
+			<Depends filename="Libraries/UI/UI.cbp" />
+			<Depends filename="Libraries/Workbench/Workbench.cbp" />
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>

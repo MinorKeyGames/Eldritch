@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B53BB4E18231B2F009DA897 /* framework3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BB3918231B2F009DA897 /* framework3d.cpp */; };
+		6B53BB4F18231B2F009DA897 /* framework3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BB3A18231B2F009DA897 /* framework3d.h */; };
+		6B53BB5018231B2F009DA897 /* frameworkutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BB3B18231B2F009DA897 /* frameworkutil.cpp */; };
+		6B53BB5118231B2F009DA897 /* frameworkutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BB3C18231B2F009DA897 /* frameworkutil.h */; };
+		6B53BB5A18231B2F009DA897 /* uiinputmapframework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BB4618231B2F009DA897 /* uiinputmapframework.cpp */; };
+		6B53BB5B18231B2F009DA897 /* uiinputmapframework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BB4718231B2F009DA897 /* uiinputmapframework.h */; };
+		6B53BB5C18231B2F009DA897 /* uimanagerframework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BB4818231B2F009DA897 /* uimanagerframework.cpp */; };
+		6B53BB5D18231B2F009DA897 /* uimanagerframework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BB4918231B2F009DA897 /* uimanagerframework.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B53B8F418231AAD009DA897 /* libFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B53BB3918231B2F009DA897 /* framework3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = framework3d.cpp; sourceTree = "<group>"; };
+		6B53BB3A18231B2F009DA897 /* framework3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = framework3d.h; sourceTree = "<group>"; };
+		6B53BB3B18231B2F009DA897 /* frameworkutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = frameworkutil.cpp; sourceTree = "<group>"; };
+		6B53BB3C18231B2F009DA897 /* frameworkutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frameworkutil.h; sourceTree = "<group>"; };
+		6B53BB4618231B2F009DA897 /* uiinputmapframework.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uiinputmapframework.cpp; sourceTree = "<group>"; };
+		6B53BB4718231B2F009DA897 /* uiinputmapframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiinputmapframework.h; sourceTree = "<group>"; };
+		6B53BB4818231B2F009DA897 /* uimanagerframework.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uimanagerframework.cpp; sourceTree = "<group>"; };
+		6B53BB4918231B2F009DA897 /* uimanagerframework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uimanagerframework.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B53B8F118231AAD009DA897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B53B8E918231AAD009DA897 = {
+			isa = PBXGroup;
+			children = (
+				6B53BB3418231B2F009DA897 /* src */,
+				6B53B8F518231AAD009DA897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B53B8F518231AAD009DA897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B53B8F418231AAD009DA897 /* libFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B53BB3418231B2F009DA897 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BB3918231B2F009DA897 /* framework3d.cpp */,
+				6B53BB3A18231B2F009DA897 /* framework3d.h */,
+				6B53BB3B18231B2F009DA897 /* frameworkutil.cpp */,
+				6B53BB3C18231B2F009DA897 /* frameworkutil.h */,
+				6B53BB4618231B2F009DA897 /* uiinputmapframework.cpp */,
+				6B53BB4718231B2F009DA897 /* uiinputmapframework.h */,
+				6B53BB4818231B2F009DA897 /* uimanagerframework.cpp */,
+				6B53BB4918231B2F009DA897 /* uimanagerframework.h */,
+			);
+			name = src;
+			path = ../../Libraries/Framework/src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B53B8F218231AAD009DA897 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53BB4F18231B2F009DA897 /* framework3d.h in Headers */,
+				6B53BB5118231B2F009DA897 /* frameworkutil.h in Headers */,
+				6B53BB5B18231B2F009DA897 /* uiinputmapframework.h in Headers */,
+				6B53BB5D18231B2F009DA897 /* uimanagerframework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B53B8F318231AAD009DA897 /* Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B53B8F818231AAD009DA897 /* Build configuration list for PBXNativeTarget "Framework" */;
+			buildPhases = (
+				6B53B8F018231AAD009DA897 /* Sources */,
+				6B53B8F118231AAD009DA897 /* Frameworks */,
+				6B53B8F218231AAD009DA897 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framework;
+			productName = Framework;
+			productReference = 6B53B8F418231AAD009DA897 /* libFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B53B8EB18231AAD009DA897 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6B53B8EE18231AAD009DA897 /* Build configuration list for PBXProject "Framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B53B8E918231AAD009DA897;
+			productRefGroup = 6B53B8F518231AAD009DA897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B53B8F318231AAD009DA897 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B53B8F018231AAD009DA897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53BB4E18231B2F009DA897 /* framework3d.cpp in Sources */,
+				6B53BB5018231B2F009DA897 /* frameworkutil.cpp in Sources */,
+				6B53BB5A18231B2F009DA897 /* uiinputmapframework.cpp in Sources */,
+				6B53BB5C18231B2F009DA897 /* uimanagerframework.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B53B8F618231AAD009DA897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B53B8F718231AAD009DA897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B53B8F918231AAD009DA897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					../../Libraries/Framework/src,
+					../../Libraries/Audio/src,
+					../../Libraries/3D/src,
+					../../Libraries/Math/src,
+					../../Libraries/Core/src,
+					../../Libraries/Workbench/src,
+					../../Libraries/UI/src,
+					../../Libraries/2D/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		6B53B8FA18231AAD009DA897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = _FINAL;
+				HEADER_SEARCH_PATHS = (
+					../../Libraries/Framework/src,
+					../../Libraries/Audio/src,
+					../../Libraries/3D/src,
+					../../Libraries/Math/src,
+					../../Libraries/Core/src,
+					../../Libraries/Workbench/src,
+					../../Libraries/UI/src,
+					../../Libraries/2D/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B53B8EE18231AAD009DA897 /* Build configuration list for PBXProject "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53B8F618231AAD009DA897 /* Debug */,
+				6B53B8F718231AAD009DA897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B53B8F818231AAD009DA897 /* Build configuration list for PBXNativeTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53B8F918231AAD009DA897 /* Debug */,
+				6B53B8FA18231AAD009DA897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B53B8EB18231AAD009DA897 /* Project object */;
+}

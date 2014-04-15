@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Audio" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Debug/libAudio" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release/libAudio" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Final Win32">
+				<Option output="Final Win32/libAudio" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Final Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-D_FINAL" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/FMOD/fmod.h" />
+		<Unit filename="src/FMOD/fmod.hpp" />
+		<Unit filename="src/FMOD/fmod_codec.h" />
+		<Unit filename="src/FMOD/fmod_dsp.h" />
+		<Unit filename="src/FMOD/fmod_errors.h" />
+		<Unit filename="src/FMOD/fmod_output.h" />
+		<Unit filename="src/audio.cpp" />
+		<Unit filename="src/audio.h" />
+		<Unit filename="src/audiosystemcommon.cpp" />
+		<Unit filename="src/audiosystemcommon.h" />
+		<Unit filename="src/fmodaudiosystem.cpp" />
+		<Unit filename="src/fmodaudiosystem.h" />
+		<Unit filename="src/fmodsound.cpp" />
+		<Unit filename="src/fmodsound.h" />
+		<Unit filename="src/fmodsoundinstance.cpp" />
+		<Unit filename="src/fmodsoundinstance.h" />
+		<Unit filename="src/iaudiosystem.h" />
+		<Unit filename="src/isound.h" />
+		<Unit filename="src/isoundinstance.h" />
+		<Unit filename="src/musicmanager.cpp" />
+		<Unit filename="src/musicmanager.h" />
+		<Unit filename="src/sound3dlistener.cpp" />
+		<Unit filename="src/sound3dlistener.h" />
+		<Unit filename="src/soundcommon.cpp" />
+		<Unit filename="src/soundcommon.h" />
+		<Unit filename="src/soundinstancecommon.cpp" />
+		<Unit filename="src/soundinstancecommon.h" />
+		<Unit filename="src/soundmanager.cpp" />
+		<Unit filename="src/soundmanager.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

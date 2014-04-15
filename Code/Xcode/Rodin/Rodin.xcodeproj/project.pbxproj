@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B53BCD618231B4A009DA897 /* wbactionrodinblackboardwrite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BC9018231B4A009DA897 /* wbactionrodinblackboardwrite.cpp */; };
+		6B53BCD718231B4A009DA897 /* wbactionrodinblackboardwrite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BC9118231B4A009DA897 /* wbactionrodinblackboardwrite.h */; };
+		6B53BCD818231B4A009DA897 /* rodinbtnodeblackboardwrite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BC9318231B4A009DA897 /* rodinbtnodeblackboardwrite.cpp */; };
+		6B53BCD918231B4A009DA897 /* rodinbtnodeblackboardwrite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BC9418231B4A009DA897 /* rodinbtnodeblackboardwrite.h */; };
+		6B53BCDA18231B4A009DA897 /* rodinbtnodecastresult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BC9518231B4A009DA897 /* rodinbtnodecastresult.cpp */; };
+		6B53BCDB18231B4A009DA897 /* rodinbtnodecastresult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BC9618231B4A009DA897 /* rodinbtnodecastresult.h */; };
+		6B53BCDC18231B4A009DA897 /* rodinbtnodecomposite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BC9718231B4A009DA897 /* rodinbtnodecomposite.cpp */; };
+		6B53BCDD18231B4A009DA897 /* rodinbtnodecomposite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BC9818231B4A009DA897 /* rodinbtnodecomposite.h */; };
+		6B53BCDE18231B4A009DA897 /* rodinbtnodecompositesingular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BC9918231B4A009DA897 /* rodinbtnodecompositesingular.cpp */; };
+		6B53BCDF18231B4A009DA897 /* rodinbtnodecompositesingular.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BC9A18231B4A009DA897 /* rodinbtnodecompositesingular.h */; };
+		6B53BCE018231B4A009DA897 /* rodinbtnodeconditionpe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BC9B18231B4A009DA897 /* rodinbtnodeconditionpe.cpp */; };
+		6B53BCE118231B4A009DA897 /* rodinbtnodeconditionpe.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BC9C18231B4A009DA897 /* rodinbtnodeconditionpe.h */; };
+		6B53BCE218231B4A009DA897 /* rodinbtnodedecorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BC9D18231B4A009DA897 /* rodinbtnodedecorator.cpp */; };
+		6B53BCE318231B4A009DA897 /* rodinbtnodedecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BC9E18231B4A009DA897 /* rodinbtnodedecorator.h */; };
+		6B53BCE418231B4A009DA897 /* rodinbtnodelog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BC9F18231B4A009DA897 /* rodinbtnodelog.cpp */; };
+		6B53BCE518231B4A009DA897 /* rodinbtnodelog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCA018231B4A009DA897 /* rodinbtnodelog.h */; };
+		6B53BCE618231B4A009DA897 /* rodinbtnodelookup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCA118231B4A009DA897 /* rodinbtnodelookup.cpp */; };
+		6B53BCE718231B4A009DA897 /* rodinbtnodelookup.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCA218231B4A009DA897 /* rodinbtnodelookup.h */; };
+		6B53BCE818231B4A009DA897 /* rodinbtnodeloop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCA318231B4A009DA897 /* rodinbtnodeloop.cpp */; };
+		6B53BCE918231B4A009DA897 /* rodinbtnodeloop.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCA418231B4A009DA897 /* rodinbtnodeloop.h */; };
+		6B53BCEA18231B4A009DA897 /* rodinbtnodenull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCA518231B4A009DA897 /* rodinbtnodenull.cpp */; };
+		6B53BCEB18231B4A009DA897 /* rodinbtnodenull.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCA618231B4A009DA897 /* rodinbtnodenull.h */; };
+		6B53BCEC18231B4A009DA897 /* rodinbtnodeparallel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCA718231B4A009DA897 /* rodinbtnodeparallel.cpp */; };
+		6B53BCED18231B4A009DA897 /* rodinbtnodeparallel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCA818231B4A009DA897 /* rodinbtnodeparallel.h */; };
+		6B53BCEE18231B4A009DA897 /* rodinbtnodeplayactions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCA918231B4A009DA897 /* rodinbtnodeplayactions.cpp */; };
+		6B53BCEF18231B4A009DA897 /* rodinbtnodeplayactions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCAA18231B4A009DA897 /* rodinbtnodeplayactions.h */; };
+		6B53BCF018231B4A009DA897 /* rodinbtnodeselector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCAB18231B4A009DA897 /* rodinbtnodeselector.cpp */; };
+		6B53BCF118231B4A009DA897 /* rodinbtnodeselector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCAC18231B4A009DA897 /* rodinbtnodeselector.h */; };
+		6B53BCF218231B4A009DA897 /* rodinbtnodesendevent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCAD18231B4A009DA897 /* rodinbtnodesendevent.cpp */; };
+		6B53BCF318231B4A009DA897 /* rodinbtnodesendevent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCAE18231B4A009DA897 /* rodinbtnodesendevent.h */; };
+		6B53BCF418231B4A009DA897 /* rodinbtnodesequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCAF18231B4A009DA897 /* rodinbtnodesequence.cpp */; };
+		6B53BCF518231B4A009DA897 /* rodinbtnodesequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCB018231B4A009DA897 /* rodinbtnodesequence.h */; };
+		6B53BCF618231B4A009DA897 /* rodinbtnodesleep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCB118231B4A009DA897 /* rodinbtnodesleep.cpp */; };
+		6B53BCF718231B4A009DA897 /* rodinbtnodesleep.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCB218231B4A009DA897 /* rodinbtnodesleep.h */; };
+		6B53BCF818231B4A009DA897 /* rodinbtnodetimeout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCB318231B4A009DA897 /* rodinbtnodetimeout.cpp */; };
+		6B53BCF918231B4A009DA897 /* rodinbtnodetimeout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCB418231B4A009DA897 /* rodinbtnodetimeout.h */; };
+		6B53BCFA18231B4A009DA897 /* rodinbtnodeuseresource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCB518231B4A009DA897 /* rodinbtnodeuseresource.cpp */; };
+		6B53BCFB18231B4A009DA897 /* rodinbtnodeuseresource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCB618231B4A009DA897 /* rodinbtnodeuseresource.h */; };
+		6B53BCFC18231B4A009DA897 /* rodinbtnodeusestatmod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCB718231B4A009DA897 /* rodinbtnodeusestatmod.cpp */; };
+		6B53BCFD18231B4A009DA897 /* rodinbtnodeusestatmod.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCB818231B4A009DA897 /* rodinbtnodeusestatmod.h */; };
+		6B53BCFE18231B4A009DA897 /* rodinbtnodewait.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCB918231B4A009DA897 /* rodinbtnodewait.cpp */; };
+		6B53BCFF18231B4A009DA897 /* rodinbtnodewait.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCBA18231B4A009DA897 /* rodinbtnodewait.h */; };
+		6B53BD0018231B4A009DA897 /* rodinbtnodewaitforevent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCBB18231B4A009DA897 /* rodinbtnodewaitforevent.cpp */; };
+		6B53BD0118231B4A009DA897 /* rodinbtnodewaitforevent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCBC18231B4A009DA897 /* rodinbtnodewaitforevent.h */; };
+		6B53BD0218231B4A009DA897 /* wbcomprodinbehaviortree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCBE18231B4A009DA897 /* wbcomprodinbehaviortree.cpp */; };
+		6B53BD0318231B4A009DA897 /* wbcomprodinbehaviortree.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCBF18231B4A009DA897 /* wbcomprodinbehaviortree.h */; };
+		6B53BD0418231B4A009DA897 /* wbcomprodinblackboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCC018231B4A009DA897 /* wbcomprodinblackboard.cpp */; };
+		6B53BD0518231B4A009DA897 /* wbcomprodinblackboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCC118231B4A009DA897 /* wbcomprodinblackboard.h */; };
+		6B53BD0618231B4A009DA897 /* wbcomprodinknowledge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCC218231B4A009DA897 /* wbcomprodinknowledge.cpp */; };
+		6B53BD0718231B4A009DA897 /* wbcomprodinknowledge.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCC318231B4A009DA897 /* wbcomprodinknowledge.h */; };
+		6B53BD0818231B4A009DA897 /* wbcomprodinresourcemap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCC418231B4A009DA897 /* wbcomprodinresourcemap.cpp */; };
+		6B53BD0918231B4A009DA897 /* wbcomprodinresourcemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCC518231B4A009DA897 /* wbcomprodinresourcemap.h */; };
+		6B53BD0A18231B4A009DA897 /* irodinresourceuser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCC618231B4A009DA897 /* irodinresourceuser.h */; };
+		6B53BD0B18231B4A009DA897 /* wbperodinblackboardget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCC818231B4A009DA897 /* wbperodinblackboardget.cpp */; };
+		6B53BD0C18231B4A009DA897 /* wbperodinblackboardget.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCC918231B4A009DA897 /* wbperodinblackboardget.h */; };
+		6B53BD0D18231B4A009DA897 /* wbperodingetlastknownlocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCCA18231B4A009DA897 /* wbperodingetlastknownlocation.cpp */; };
+		6B53BD0E18231B4A009DA897 /* wbperodingetlastknownlocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCCB18231B4A009DA897 /* wbperodingetlastknownlocation.h */; };
+		6B53BD0F18231B4A009DA897 /* wbperodingetlastknowntime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCCC18231B4A009DA897 /* wbperodingetlastknowntime.cpp */; };
+		6B53BD1018231B4A009DA897 /* wbperodingetlastknowntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCCD18231B4A009DA897 /* wbperodingetlastknowntime.h */; };
+		6B53BD1118231B4A009DA897 /* rodinbtnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCCE18231B4A009DA897 /* rodinbtnode.cpp */; };
+		6B53BD1218231B4A009DA897 /* rodinbtnode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCCF18231B4A009DA897 /* rodinbtnode.h */; };
+		6B53BD1318231B4A009DA897 /* rodinbtnodefactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BCD018231B4A009DA897 /* rodinbtnodefactory.cpp */; };
+		6B53BD1418231B4A009DA897 /* rodinbtnodefactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCD118231B4A009DA897 /* rodinbtnodefactory.h */; };
+		6B53BD1518231B4A009DA897 /* rodinbtnodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCD218231B4A009DA897 /* rodinbtnodes.h */; };
+		6B53BD1618231B4A009DA897 /* rodinwbactions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCD318231B4A009DA897 /* rodinwbactions.h */; };
+		6B53BD1718231B4A009DA897 /* rodinwbcomponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCD418231B4A009DA897 /* rodinwbcomponents.h */; };
+		6B53BD1818231B4A009DA897 /* rodinwbpes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BCD518231B4A009DA897 /* rodinwbpes.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B53B93C18231AD8009DA897 /* libRodin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRodin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B53BC9018231B4A009DA897 /* wbactionrodinblackboardwrite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbactionrodinblackboardwrite.cpp; sourceTree = "<group>"; };
+		6B53BC9118231B4A009DA897 /* wbactionrodinblackboardwrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbactionrodinblackboardwrite.h; sourceTree = "<group>"; };
+		6B53BC9318231B4A009DA897 /* rodinbtnodeblackboardwrite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodeblackboardwrite.cpp; sourceTree = "<group>"; };
+		6B53BC9418231B4A009DA897 /* rodinbtnodeblackboardwrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodeblackboardwrite.h; sourceTree = "<group>"; };
+		6B53BC9518231B4A009DA897 /* rodinbtnodecastresult.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodecastresult.cpp; sourceTree = "<group>"; };
+		6B53BC9618231B4A009DA897 /* rodinbtnodecastresult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodecastresult.h; sourceTree = "<group>"; };
+		6B53BC9718231B4A009DA897 /* rodinbtnodecomposite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodecomposite.cpp; sourceTree = "<group>"; };
+		6B53BC9818231B4A009DA897 /* rodinbtnodecomposite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodecomposite.h; sourceTree = "<group>"; };
+		6B53BC9918231B4A009DA897 /* rodinbtnodecompositesingular.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodecompositesingular.cpp; sourceTree = "<group>"; };
+		6B53BC9A18231B4A009DA897 /* rodinbtnodecompositesingular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodecompositesingular.h; sourceTree = "<group>"; };
+		6B53BC9B18231B4A009DA897 /* rodinbtnodeconditionpe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodeconditionpe.cpp; sourceTree = "<group>"; };
+		6B53BC9C18231B4A009DA897 /* rodinbtnodeconditionpe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodeconditionpe.h; sourceTree = "<group>"; };
+		6B53BC9D18231B4A009DA897 /* rodinbtnodedecorator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodedecorator.cpp; sourceTree = "<group>"; };
+		6B53BC9E18231B4A009DA897 /* rodinbtnodedecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodedecorator.h; sourceTree = "<group>"; };
+		6B53BC9F18231B4A009DA897 /* rodinbtnodelog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodelog.cpp; sourceTree = "<group>"; };
+		6B53BCA018231B4A009DA897 /* rodinbtnodelog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodelog.h; sourceTree = "<group>"; };
+		6B53BCA118231B4A009DA897 /* rodinbtnodelookup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodelookup.cpp; sourceTree = "<group>"; };
+		6B53BCA218231B4A009DA897 /* rodinbtnodelookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodelookup.h; sourceTree = "<group>"; };
+		6B53BCA318231B4A009DA897 /* rodinbtnodeloop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodeloop.cpp; sourceTree = "<group>"; };
+		6B53BCA418231B4A009DA897 /* rodinbtnodeloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodeloop.h; sourceTree = "<group>"; };
+		6B53BCA518231B4A009DA897 /* rodinbtnodenull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodenull.cpp; sourceTree = "<group>"; };
+		6B53BCA618231B4A009DA897 /* rodinbtnodenull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodenull.h; sourceTree = "<group>"; };
+		6B53BCA718231B4A009DA897 /* rodinbtnodeparallel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodeparallel.cpp; sourceTree = "<group>"; };
+		6B53BCA818231B4A009DA897 /* rodinbtnodeparallel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodeparallel.h; sourceTree = "<group>"; };
+		6B53BCA918231B4A009DA897 /* rodinbtnodeplayactions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodeplayactions.cpp; sourceTree = "<group>"; };
+		6B53BCAA18231B4A009DA897 /* rodinbtnodeplayactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodeplayactions.h; sourceTree = "<group>"; };
+		6B53BCAB18231B4A009DA897 /* rodinbtnodeselector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodeselector.cpp; sourceTree = "<group>"; };
+		6B53BCAC18231B4A009DA897 /* rodinbtnodeselector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodeselector.h; sourceTree = "<group>"; };
+		6B53BCAD18231B4A009DA897 /* rodinbtnodesendevent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodesendevent.cpp; sourceTree = "<group>"; };
+		6B53BCAE18231B4A009DA897 /* rodinbtnodesendevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodesendevent.h; sourceTree = "<group>"; };
+		6B53BCAF18231B4A009DA897 /* rodinbtnodesequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodesequence.cpp; sourceTree = "<group>"; };
+		6B53BCB018231B4A009DA897 /* rodinbtnodesequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodesequence.h; sourceTree = "<group>"; };
+		6B53BCB118231B4A009DA897 /* rodinbtnodesleep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodesleep.cpp; sourceTree = "<group>"; };
+		6B53BCB218231B4A009DA897 /* rodinbtnodesleep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodesleep.h; sourceTree = "<group>"; };
+		6B53BCB318231B4A009DA897 /* rodinbtnodetimeout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodetimeout.cpp; sourceTree = "<group>"; };
+		6B53BCB418231B4A009DA897 /* rodinbtnodetimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodetimeout.h; sourceTree = "<group>"; };
+		6B53BCB518231B4A009DA897 /* rodinbtnodeuseresource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodeuseresource.cpp; sourceTree = "<group>"; };
+		6B53BCB618231B4A009DA897 /* rodinbtnodeuseresource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodeuseresource.h; sourceTree = "<group>"; };
+		6B53BCB718231B4A009DA897 /* rodinbtnodeusestatmod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodeusestatmod.cpp; sourceTree = "<group>"; };
+		6B53BCB818231B4A009DA897 /* rodinbtnodeusestatmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodeusestatmod.h; sourceTree = "<group>"; };
+		6B53BCB918231B4A009DA897 /* rodinbtnodewait.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodewait.cpp; sourceTree = "<group>"; };
+		6B53BCBA18231B4A009DA897 /* rodinbtnodewait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodewait.h; sourceTree = "<group>"; };
+		6B53BCBB18231B4A009DA897 /* rodinbtnodewaitforevent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodewaitforevent.cpp; sourceTree = "<group>"; };
+		6B53BCBC18231B4A009DA897 /* rodinbtnodewaitforevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodewaitforevent.h; sourceTree = "<group>"; };
+		6B53BCBE18231B4A009DA897 /* wbcomprodinbehaviortree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbcomprodinbehaviortree.cpp; sourceTree = "<group>"; };
+		6B53BCBF18231B4A009DA897 /* wbcomprodinbehaviortree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbcomprodinbehaviortree.h; sourceTree = "<group>"; };
+		6B53BCC018231B4A009DA897 /* wbcomprodinblackboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbcomprodinblackboard.cpp; sourceTree = "<group>"; };
+		6B53BCC118231B4A009DA897 /* wbcomprodinblackboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbcomprodinblackboard.h; sourceTree = "<group>"; };
+		6B53BCC218231B4A009DA897 /* wbcomprodinknowledge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbcomprodinknowledge.cpp; sourceTree = "<group>"; };
+		6B53BCC318231B4A009DA897 /* wbcomprodinknowledge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbcomprodinknowledge.h; sourceTree = "<group>"; };
+		6B53BCC418231B4A009DA897 /* wbcomprodinresourcemap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbcomprodinresourcemap.cpp; sourceTree = "<group>"; };
+		6B53BCC518231B4A009DA897 /* wbcomprodinresourcemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbcomprodinresourcemap.h; sourceTree = "<group>"; };
+		6B53BCC618231B4A009DA897 /* irodinresourceuser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irodinresourceuser.h; sourceTree = "<group>"; };
+		6B53BCC818231B4A009DA897 /* wbperodinblackboardget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbperodinblackboardget.cpp; sourceTree = "<group>"; };
+		6B53BCC918231B4A009DA897 /* wbperodinblackboardget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbperodinblackboardget.h; sourceTree = "<group>"; };
+		6B53BCCA18231B4A009DA897 /* wbperodingetlastknownlocation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbperodingetlastknownlocation.cpp; sourceTree = "<group>"; };
+		6B53BCCB18231B4A009DA897 /* wbperodingetlastknownlocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbperodingetlastknownlocation.h; sourceTree = "<group>"; };
+		6B53BCCC18231B4A009DA897 /* wbperodingetlastknowntime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wbperodingetlastknowntime.cpp; sourceTree = "<group>"; };
+		6B53BCCD18231B4A009DA897 /* wbperodingetlastknowntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbperodingetlastknowntime.h; sourceTree = "<group>"; };
+		6B53BCCE18231B4A009DA897 /* rodinbtnode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnode.cpp; sourceTree = "<group>"; };
+		6B53BCCF18231B4A009DA897 /* rodinbtnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnode.h; sourceTree = "<group>"; };
+		6B53BCD018231B4A009DA897 /* rodinbtnodefactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rodinbtnodefactory.cpp; sourceTree = "<group>"; };
+		6B53BCD118231B4A009DA897 /* rodinbtnodefactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodefactory.h; sourceTree = "<group>"; };
+		6B53BCD218231B4A009DA897 /* rodinbtnodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinbtnodes.h; sourceTree = "<group>"; };
+		6B53BCD318231B4A009DA897 /* rodinwbactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinwbactions.h; sourceTree = "<group>"; };
+		6B53BCD418231B4A009DA897 /* rodinwbcomponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinwbcomponents.h; sourceTree = "<group>"; };
+		6B53BCD518231B4A009DA897 /* rodinwbpes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rodinwbpes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B53B93918231AD8009DA897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B53B93118231AD8009DA897 = {
+			isa = PBXGroup;
+			children = (
+				6B53BC8E18231B4A009DA897 /* src */,
+				6B53B93D18231AD8009DA897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B53B93D18231AD8009DA897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B53B93C18231AD8009DA897 /* libRodin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B53BC8E18231B4A009DA897 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BC8F18231B4A009DA897 /* Actions */,
+				6B53BC9218231B4A009DA897 /* BTNodes */,
+				6B53BCBD18231B4A009DA897 /* Components */,
+				6B53BCC618231B4A009DA897 /* irodinresourceuser.h */,
+				6B53BCC718231B4A009DA897 /* PEs */,
+				6B53BCCE18231B4A009DA897 /* rodinbtnode.cpp */,
+				6B53BCCF18231B4A009DA897 /* rodinbtnode.h */,
+				6B53BCD018231B4A009DA897 /* rodinbtnodefactory.cpp */,
+				6B53BCD118231B4A009DA897 /* rodinbtnodefactory.h */,
+				6B53BCD218231B4A009DA897 /* rodinbtnodes.h */,
+				6B53BCD318231B4A009DA897 /* rodinwbactions.h */,
+				6B53BCD418231B4A009DA897 /* rodinwbcomponents.h */,
+				6B53BCD518231B4A009DA897 /* rodinwbpes.h */,
+			);
+			name = src;
+			path = ../../Libraries/Rodin/src;
+			sourceTree = "<group>";
+		};
+		6B53BC8F18231B4A009DA897 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BC9018231B4A009DA897 /* wbactionrodinblackboardwrite.cpp */,
+				6B53BC9118231B4A009DA897 /* wbactionrodinblackboardwrite.h */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		6B53BC9218231B4A009DA897 /* BTNodes */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BC9318231B4A009DA897 /* rodinbtnodeblackboardwrite.cpp */,
+				6B53BC9418231B4A009DA897 /* rodinbtnodeblackboardwrite.h */,
+				6B53BC9518231B4A009DA897 /* rodinbtnodecastresult.cpp */,
+				6B53BC9618231B4A009DA897 /* rodinbtnodecastresult.h */,
+				6B53BC9718231B4A009DA897 /* rodinbtnodecomposite.cpp */,
+				6B53BC9818231B4A009DA897 /* rodinbtnodecomposite.h */,
+				6B53BC9918231B4A009DA897 /* rodinbtnodecompositesingular.cpp */,
+				6B53BC9A18231B4A009DA897 /* rodinbtnodecompositesingular.h */,
+				6B53BC9B18231B4A009DA897 /* rodinbtnodeconditionpe.cpp */,
+				6B53BC9C18231B4A009DA897 /* rodinbtnodeconditionpe.h */,
+				6B53BC9D18231B4A009DA897 /* rodinbtnodedecorator.cpp */,
+				6B53BC9E18231B4A009DA897 /* rodinbtnodedecorator.h */,
+				6B53BC9F18231B4A009DA897 /* rodinbtnodelog.cpp */,
+				6B53BCA018231B4A009DA897 /* rodinbtnodelog.h */,
+				6B53BCA118231B4A009DA897 /* rodinbtnodelookup.cpp */,
+				6B53BCA218231B4A009DA897 /* rodinbtnodelookup.h */,
+				6B53BCA318231B4A009DA897 /* rodinbtnodeloop.cpp */,
+				6B53BCA418231B4A009DA897 /* rodinbtnodeloop.h */,
+				6B53BCA518231B4A009DA897 /* rodinbtnodenull.cpp */,
+				6B53BCA618231B4A009DA897 /* rodinbtnodenull.h */,
+				6B53BCA718231B4A009DA897 /* rodinbtnodeparallel.cpp */,
+				6B53BCA818231B4A009DA897 /* rodinbtnodeparallel.h */,
+				6B53BCA918231B4A009DA897 /* rodinbtnodeplayactions.cpp */,
+				6B53BCAA18231B4A009DA897 /* rodinbtnodeplayactions.h */,
+				6B53BCAB18231B4A009DA897 /* rodinbtnodeselector.cpp */,
+				6B53BCAC18231B4A009DA897 /* rodinbtnodeselector.h */,
+				6B53BCAD18231B4A009DA897 /* rodinbtnodesendevent.cpp */,
+				6B53BCAE18231B4A009DA897 /* rodinbtnodesendevent.h */,
+				6B53BCAF18231B4A009DA897 /* rodinbtnodesequence.cpp */,
+				6B53BCB018231B4A009DA897 /* rodinbtnodesequence.h */,
+				6B53BCB118231B4A009DA897 /* rodinbtnodesleep.cpp */,
+				6B53BCB218231B4A009DA897 /* rodinbtnodesleep.h */,
+				6B53BCB318231B4A009DA897 /* rodinbtnodetimeout.cpp */,
+				6B53BCB418231B4A009DA897 /* rodinbtnodetimeout.h */,
+				6B53BCB518231B4A009DA897 /* rodinbtnodeuseresource.cpp */,
+				6B53BCB618231B4A009DA897 /* rodinbtnodeuseresource.h */,
+				6B53BCB718231B4A009DA897 /* rodinbtnodeusestatmod.cpp */,
+				6B53BCB818231B4A009DA897 /* rodinbtnodeusestatmod.h */,
+				6B53BCB918231B4A009DA897 /* rodinbtnodewait.cpp */,
+				6B53BCBA18231B4A009DA897 /* rodinbtnodewait.h */,
+				6B53BCBB18231B4A009DA897 /* rodinbtnodewaitforevent.cpp */,
+				6B53BCBC18231B4A009DA897 /* rodinbtnodewaitforevent.h */,
+			);
+			path = BTNodes;
+			sourceTree = "<group>";
+		};
+		6B53BCBD18231B4A009DA897 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BCBE18231B4A009DA897 /* wbcomprodinbehaviortree.cpp */,
+				6B53BCBF18231B4A009DA897 /* wbcomprodinbehaviortree.h */,
+				6B53BCC018231B4A009DA897 /* wbcomprodinblackboard.cpp */,
+				6B53BCC118231B4A009DA897 /* wbcomprodinblackboard.h */,
+				6B53BCC218231B4A009DA897 /* wbcomprodinknowledge.cpp */,
+				6B53BCC318231B4A009DA897 /* wbcomprodinknowledge.h */,
+				6B53BCC418231B4A009DA897 /* wbcomprodinresourcemap.cpp */,
+				6B53BCC518231B4A009DA897 /* wbcomprodinresourcemap.h */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6B53BCC718231B4A009DA897 /* PEs */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BCC818231B4A009DA897 /* wbperodinblackboardget.cpp */,
+				6B53BCC918231B4A009DA897 /* wbperodinblackboardget.h */,
+				6B53BCCA18231B4A009DA897 /* wbperodingetlastknownlocation.cpp */,
+				6B53BCCB18231B4A009DA897 /* wbperodingetlastknownlocation.h */,
+				6B53BCCC18231B4A009DA897 /* wbperodingetlastknowntime.cpp */,
+				6B53BCCD18231B4A009DA897 /* wbperodingetlastknowntime.h */,
+			);
+			path = PEs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B53B93A18231AD8009DA897 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53BCD718231B4A009DA897 /* wbactionrodinblackboardwrite.h in Headers */,
+				6B53BCD918231B4A009DA897 /* rodinbtnodeblackboardwrite.h in Headers */,
+				6B53BCDB18231B4A009DA897 /* rodinbtnodecastresult.h in Headers */,
+				6B53BCDD18231B4A009DA897 /* rodinbtnodecomposite.h in Headers */,
+				6B53BCDF18231B4A009DA897 /* rodinbtnodecompositesingular.h in Headers */,
+				6B53BCE118231B4A009DA897 /* rodinbtnodeconditionpe.h in Headers */,
+				6B53BCE318231B4A009DA897 /* rodinbtnodedecorator.h in Headers */,
+				6B53BCE518231B4A009DA897 /* rodinbtnodelog.h in Headers */,
+				6B53BCE718231B4A009DA897 /* rodinbtnodelookup.h in Headers */,
+				6B53BCE918231B4A009DA897 /* rodinbtnodeloop.h in Headers */,
+				6B53BCEB18231B4A009DA897 /* rodinbtnodenull.h in Headers */,
+				6B53BCED18231B4A009DA897 /* rodinbtnodeparallel.h in Headers */,
+				6B53BCEF18231B4A009DA897 /* rodinbtnodeplayactions.h in Headers */,
+				6B53BCF118231B4A009DA897 /* rodinbtnodeselector.h in Headers */,
+				6B53BCF318231B4A009DA897 /* rodinbtnodesendevent.h in Headers */,
+				6B53BCF518231B4A009DA897 /* rodinbtnodesequence.h in Headers */,
+				6B53BCF718231B4A009DA897 /* rodinbtnodesleep.h in Headers */,
+				6B53BCF918231B4A009DA897 /* rodinbtnodetimeout.h in Headers */,
+				6B53BCFB18231B4A009DA897 /* rodinbtnodeuseresource.h in Headers */,
+				6B53BCFD18231B4A009DA897 /* rodinbtnodeusestatmod.h in Headers */,
+				6B53BCFF18231B4A009DA897 /* rodinbtnodewait.h in Headers */,
+				6B53BD0118231B4A009DA897 /* rodinbtnodewaitforevent.h in Headers */,
+				6B53BD0318231B4A009DA897 /* wbcomprodinbehaviortree.h in Headers */,
+				6B53BD0518231B4A009DA897 /* wbcomprodinblackboard.h in Headers */,
+				6B53BD0718231B4A009DA897 /* wbcomprodinknowledge.h in Headers */,
+				6B53BD0918231B4A009DA897 /* wbcomprodinresourcemap.h in Headers */,
+				6B53BD0A18231B4A009DA897 /* irodinresourceuser.h in Headers */,
+				6B53BD0C18231B4A009DA897 /* wbperodinblackboardget.h in Headers */,
+				6B53BD0E18231B4A009DA897 /* wbperodingetlastknownlocation.h in Headers */,
+				6B53BD1018231B4A009DA897 /* wbperodingetlastknowntime.h in Headers */,
+				6B53BD1218231B4A009DA897 /* rodinbtnode.h in Headers */,
+				6B53BD1418231B4A009DA897 /* rodinbtnodefactory.h in Headers */,
+				6B53BD1518231B4A009DA897 /* rodinbtnodes.h in Headers */,
+				6B53BD1618231B4A009DA897 /* rodinwbactions.h in Headers */,
+				6B53BD1718231B4A009DA897 /* rodinwbcomponents.h in Headers */,
+				6B53BD1818231B4A009DA897 /* rodinwbpes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B53B93B18231AD8009DA897 /* Rodin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B53B94018231AD8009DA897 /* Build configuration list for PBXNativeTarget "Rodin" */;
+			buildPhases = (
+				6B53B93818231AD8009DA897 /* Sources */,
+				6B53B93918231AD8009DA897 /* Frameworks */,
+				6B53B93A18231AD8009DA897 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rodin;
+			productName = Rodin;
+			productReference = 6B53B93C18231AD8009DA897 /* libRodin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B53B93318231AD8009DA897 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6B53B93618231AD8009DA897 /* Build configuration list for PBXProject "Rodin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B53B93118231AD8009DA897;
+			productRefGroup = 6B53B93D18231AD8009DA897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B53B93B18231AD8009DA897 /* Rodin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B53B93818231AD8009DA897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53BCD618231B4A009DA897 /* wbactionrodinblackboardwrite.cpp in Sources */,
+				6B53BCD818231B4A009DA897 /* rodinbtnodeblackboardwrite.cpp in Sources */,
+				6B53BCDA18231B4A009DA897 /* rodinbtnodecastresult.cpp in Sources */,
+				6B53BCDC18231B4A009DA897 /* rodinbtnodecomposite.cpp in Sources */,
+				6B53BCDE18231B4A009DA897 /* rodinbtnodecompositesingular.cpp in Sources */,
+				6B53BCE018231B4A009DA897 /* rodinbtnodeconditionpe.cpp in Sources */,
+				6B53BCE218231B4A009DA897 /* rodinbtnodedecorator.cpp in Sources */,
+				6B53BCE418231B4A009DA897 /* rodinbtnodelog.cpp in Sources */,
+				6B53BCE618231B4A009DA897 /* rodinbtnodelookup.cpp in Sources */,
+				6B53BCE818231B4A009DA897 /* rodinbtnodeloop.cpp in Sources */,
+				6B53BCEA18231B4A009DA897 /* rodinbtnodenull.cpp in Sources */,
+				6B53BCEC18231B4A009DA897 /* rodinbtnodeparallel.cpp in Sources */,
+				6B53BCEE18231B4A009DA897 /* rodinbtnodeplayactions.cpp in Sources */,
+				6B53BCF018231B4A009DA897 /* rodinbtnodeselector.cpp in Sources */,
+				6B53BCF218231B4A009DA897 /* rodinbtnodesendevent.cpp in Sources */,
+				6B53BCF418231B4A009DA897 /* rodinbtnodesequence.cpp in Sources */,
+				6B53BCF618231B4A009DA897 /* rodinbtnodesleep.cpp in Sources */,
+				6B53BCF818231B4A009DA897 /* rodinbtnodetimeout.cpp in Sources */,
+				6B53BCFA18231B4A009DA897 /* rodinbtnodeuseresource.cpp in Sources */,
+				6B53BCFC18231B4A009DA897 /* rodinbtnodeusestatmod.cpp in Sources */,
+				6B53BCFE18231B4A009DA897 /* rodinbtnodewait.cpp in Sources */,
+				6B53BD0018231B4A009DA897 /* rodinbtnodewaitforevent.cpp in Sources */,
+				6B53BD0218231B4A009DA897 /* wbcomprodinbehaviortree.cpp in Sources */,
+				6B53BD0418231B4A009DA897 /* wbcomprodinblackboard.cpp in Sources */,
+				6B53BD0618231B4A009DA897 /* wbcomprodinknowledge.cpp in Sources */,
+				6B53BD0818231B4A009DA897 /* wbcomprodinresourcemap.cpp in Sources */,
+				6B53BD0B18231B4A009DA897 /* wbperodinblackboardget.cpp in Sources */,
+				6B53BD0D18231B4A009DA897 /* wbperodingetlastknownlocation.cpp in Sources */,
+				6B53BD0F18231B4A009DA897 /* wbperodingetlastknowntime.cpp in Sources */,
+				6B53BD1118231B4A009DA897 /* rodinbtnode.cpp in Sources */,
+				6B53BD1318231B4A009DA897 /* rodinbtnodefactory.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B53B93E18231AD8009DA897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B53B93F18231AD8009DA897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B53B94118231AD8009DA897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					../../Libraries/Rodin/src,
+					../../Libraries/Workbench/src,
+					../../Libraries/Core/src,
+					../../Libraries/Math/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		6B53B94218231AD8009DA897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = _FINAL;
+				HEADER_SEARCH_PATHS = (
+					../../Libraries/Rodin/src,
+					../../Libraries/Workbench/src,
+					../../Libraries/Core/src,
+					../../Libraries/Math/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B53B93618231AD8009DA897 /* Build configuration list for PBXProject "Rodin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53B93E18231AD8009DA897 /* Debug */,
+				6B53B93F18231AD8009DA897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B53B94018231AD8009DA897 /* Build configuration list for PBXNativeTarget "Rodin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53B94118231AD8009DA897 /* Debug */,
+				6B53B94218231AD8009DA897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B53B93318231AD8009DA897 /* Project object */;
+}

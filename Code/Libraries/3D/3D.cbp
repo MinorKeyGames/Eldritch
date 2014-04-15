@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="3D" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="Debug/lib3D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../GLEW/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../GLEW/src" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release/lib3D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../GLEW/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../GLEW/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="NVPerfHUD Release Win32">
+				<Option output="NVPerfHUD Release Win32/lib3D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="NVPerfHUD Release Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-DUSE_NVPERFHUD" />
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../GLEW/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../GLEW/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Final Win32">
+				<Option output="Final Win32/lib3D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Final Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-D_FINAL" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../GLEW/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Math/src" />
+					<Add directory="../Core/src" />
+					<Add directory="../GLEW/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Linker>
+			<Add library="../Core/Final Win32/libCore.a" />
+			<Add library="../Math/Final Win32/libMath.a" />
+		</Linker>
+		<Unit filename="src/3d.cpp" />
+		<Unit filename="src/3d.h" />
+		<Unit filename="src/GL2/gl2.h" />
+		<Unit filename="src/GL2/gl2indexbuffer.cpp" />
+		<Unit filename="src/GL2/gl2indexbuffer.h" />
+		<Unit filename="src/GL2/gl2pixelshader.cpp" />
+		<Unit filename="src/GL2/gl2pixelshader.h" />
+		<Unit filename="src/GL2/gl2renderer.cpp" />
+		<Unit filename="src/GL2/gl2renderer.h" />
+		<Unit filename="src/GL2/gl2rendertarget.cpp" />
+		<Unit filename="src/GL2/gl2rendertarget.h" />
+		<Unit filename="src/GL2/gl2shaderprogram.cpp" />
+		<Unit filename="src/GL2/gl2shaderprogram.h" />
+		<Unit filename="src/GL2/gl2texture.cpp" />
+		<Unit filename="src/GL2/gl2texture.h" />
+		<Unit filename="src/GL2/gl2vertexbuffer.cpp" />
+		<Unit filename="src/GL2/gl2vertexbuffer.h" />
+		<Unit filename="src/GL2/gl2vertexdeclaration.cpp" />
+		<Unit filename="src/GL2/gl2vertexdeclaration.h" />
+		<Unit filename="src/GL2/gl2vertexshader.cpp" />
+		<Unit filename="src/GL2/gl2vertexshader.h" />
+		<Unit filename="src/SDPs/sdpbase.cpp" />
+		<Unit filename="src/SDPs/sdpbase.h" />
+		<Unit filename="src/animation.cpp" />
+		<Unit filename="src/animation.h" />
+		<Unit filename="src/animationstate.cpp" />
+		<Unit filename="src/animationstate.h" />
+		<Unit filename="src/animevent.cpp" />
+		<Unit filename="src/animevent.h" />
+		<Unit filename="src/animeventfactory.cpp" />
+		<Unit filename="src/animeventfactory.h" />
+		<Unit filename="src/bonearray.cpp" />
+		<Unit filename="src/bonearray.h" />
+		<Unit filename="src/bucket.cpp" />
+		<Unit filename="src/bucket.h" />
+		<Unit filename="src/dynamicmeshmanager.cpp" />
+		<Unit filename="src/dynamicmeshmanager.h" />
+		<Unit filename="src/font.cpp" />
+		<Unit filename="src/font.h" />
+		<Unit filename="src/fontmanager.cpp" />
+		<Unit filename="src/fontmanager.h" />
+		<Unit filename="src/ibonemodifier.h" />
+		<Unit filename="src/iindexbuffer.h" />
+		<Unit filename="src/ipixelshader.h" />
+		<Unit filename="src/irenderer.h" />
+		<Unit filename="src/irendertarget.h" />
+		<Unit filename="src/irradiancevolumes.cpp" />
+		<Unit filename="src/irradiancevolumes.h" />
+		<Unit filename="src/ishaderprogram.h" />
+		<Unit filename="src/itexture.h" />
+		<Unit filename="src/ivertexbuffer.h" />
+		<Unit filename="src/ivertexdeclaration.h" />
+		<Unit filename="src/ivertexshader.h" />
+		<Unit filename="src/kdtree.cpp" />
+		<Unit filename="src/kdtree.h" />
+		<Unit filename="src/linebatcher.cpp" />
+		<Unit filename="src/linebatcher.h" />
+		<Unit filename="src/material.cpp" />
+		<Unit filename="src/material.h" />
+		<Unit filename="src/mesh.cpp" />
+		<Unit filename="src/mesh.h" />
+		<Unit filename="src/meshfactory.cpp" />
+		<Unit filename="src/meshfactory.h" />
+		<Unit filename="src/renderercommon.cpp" />
+		<Unit filename="src/renderercommon.h" />
+		<Unit filename="src/renderstates.cpp" />
+		<Unit filename="src/renderstates.h" />
+		<Unit filename="src/sdpfactory.cpp" />
+		<Unit filename="src/sdpfactory.h" />
+		<Unit filename="src/sdps.h" />
+		<Unit filename="src/sectorbound.cpp" />
+		<Unit filename="src/sectorbound.h" />
+		<Unit filename="src/shaderdataprovider.cpp" />
+		<Unit filename="src/shaderdataprovider.h" />
+		<Unit filename="src/shadermanager.cpp" />
+		<Unit filename="src/shadermanager.h" />
+		<Unit filename="src/targetmanager.cpp" />
+		<Unit filename="src/targetmanager.h" />
+		<Unit filename="src/texturecommon.cpp" />
+		<Unit filename="src/texturecommon.h" />
+		<Unit filename="src/texturemanager.cpp" />
+		<Unit filename="src/texturemanager.h" />
+		<Unit filename="src/vertexdeclarationmanager.cpp" />
+		<Unit filename="src/vertexdeclarationmanager.h" />
+		<Unit filename="src/view.cpp" />
+		<Unit filename="src/view.h" />
+		<Unit filename="src/viewportpass.cpp" />
+		<Unit filename="src/viewportpass.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

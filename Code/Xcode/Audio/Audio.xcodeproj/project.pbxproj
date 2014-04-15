@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B53BD6418231B51009DA897 /* audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BD2418231B51009DA897 /* audio.cpp */; };
+		6B53BD6518231B51009DA897 /* audio.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD2518231B51009DA897 /* audio.h */; };
+		6B53BD6618231B51009DA897 /* audiosystemcommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BD2618231B51009DA897 /* audiosystemcommon.cpp */; };
+		6B53BD6718231B51009DA897 /* audiosystemcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD2718231B51009DA897 /* audiosystemcommon.h */; };
+		6B53BD6C18231B51009DA897 /* fmod.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD2E18231B51009DA897 /* fmod.h */; };
+		6B53BD6D18231B51009DA897 /* fmod.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD2F18231B51009DA897 /* fmod.hpp */; };
+		6B53BD6E18231B51009DA897 /* fmod_codec.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3018231B51009DA897 /* fmod_codec.h */; };
+		6B53BD6F18231B51009DA897 /* fmod_dsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3118231B51009DA897 /* fmod_dsp.h */; };
+		6B53BD7018231B51009DA897 /* fmod_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3218231B51009DA897 /* fmod_errors.h */; };
+		6B53BD7118231B51009DA897 /* fmod_memoryinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3318231B51009DA897 /* fmod_memoryinfo.h */; };
+		6B53BD7218231B51009DA897 /* fmod_output.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3418231B51009DA897 /* fmod_output.h */; };
+		6B53BD7318231B51009DA897 /* fmodaudiosystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BD3518231B51009DA897 /* fmodaudiosystem.cpp */; };
+		6B53BD7418231B51009DA897 /* fmodaudiosystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3618231B51009DA897 /* fmodaudiosystem.h */; };
+		6B53BD7518231B51009DA897 /* fmodsound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BD3718231B51009DA897 /* fmodsound.cpp */; };
+		6B53BD7618231B51009DA897 /* fmodsound.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3818231B51009DA897 /* fmodsound.h */; };
+		6B53BD7718231B51009DA897 /* fmodsoundinstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BD3918231B51009DA897 /* fmodsoundinstance.cpp */; };
+		6B53BD7818231B51009DA897 /* fmodsoundinstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3A18231B51009DA897 /* fmodsoundinstance.h */; };
+		6B53BD7918231B51009DA897 /* iaudiosystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3B18231B51009DA897 /* iaudiosystem.h */; };
+		6B53BD7A18231B51009DA897 /* isound.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3C18231B51009DA897 /* isound.h */; };
+		6B53BD7B18231B51009DA897 /* isoundinstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD3D18231B51009DA897 /* isoundinstance.h */; };
+		6B53BD8E18231B51009DA897 /* musicmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BD5118231B51009DA897 /* musicmanager.cpp */; };
+		6B53BD8F18231B51009DA897 /* musicmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD5218231B51009DA897 /* musicmanager.h */; };
+		6B53BD9018231B51009DA897 /* sound3dlistener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BD5318231B51009DA897 /* sound3dlistener.cpp */; };
+		6B53BD9118231B51009DA897 /* sound3dlistener.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD5418231B51009DA897 /* sound3dlistener.h */; };
+		6B53BD9218231B51009DA897 /* soundcommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BD5518231B51009DA897 /* soundcommon.cpp */; };
+		6B53BD9318231B51009DA897 /* soundcommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD5618231B51009DA897 /* soundcommon.h */; };
+		6B53BD9418231B51009DA897 /* soundinstancecommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BD5718231B51009DA897 /* soundinstancecommon.cpp */; };
+		6B53BD9518231B51009DA897 /* soundinstancecommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD5818231B51009DA897 /* soundinstancecommon.h */; };
+		6B53BD9618231B51009DA897 /* soundmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53BD5918231B51009DA897 /* soundmanager.cpp */; };
+		6B53BD9718231B51009DA897 /* soundmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53BD5A18231B51009DA897 /* soundmanager.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B53B95418231AEB009DA897 /* libAudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAudio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B53BD2418231B51009DA897 /* audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audio.cpp; sourceTree = "<group>"; };
+		6B53BD2518231B51009DA897 /* audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio.h; sourceTree = "<group>"; };
+		6B53BD2618231B51009DA897 /* audiosystemcommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audiosystemcommon.cpp; sourceTree = "<group>"; };
+		6B53BD2718231B51009DA897 /* audiosystemcommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audiosystemcommon.h; sourceTree = "<group>"; };
+		6B53BD2E18231B51009DA897 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		6B53BD2F18231B51009DA897 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+		6B53BD3018231B51009DA897 /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		6B53BD3118231B51009DA897 /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		6B53BD3218231B51009DA897 /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		6B53BD3318231B51009DA897 /* fmod_memoryinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_memoryinfo.h; sourceTree = "<group>"; };
+		6B53BD3418231B51009DA897 /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		6B53BD3518231B51009DA897 /* fmodaudiosystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fmodaudiosystem.cpp; sourceTree = "<group>"; };
+		6B53BD3618231B51009DA897 /* fmodaudiosystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmodaudiosystem.h; sourceTree = "<group>"; };
+		6B53BD3718231B51009DA897 /* fmodsound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fmodsound.cpp; sourceTree = "<group>"; };
+		6B53BD3818231B51009DA897 /* fmodsound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmodsound.h; sourceTree = "<group>"; };
+		6B53BD3918231B51009DA897 /* fmodsoundinstance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fmodsoundinstance.cpp; sourceTree = "<group>"; };
+		6B53BD3A18231B51009DA897 /* fmodsoundinstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmodsoundinstance.h; sourceTree = "<group>"; };
+		6B53BD3B18231B51009DA897 /* iaudiosystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iaudiosystem.h; sourceTree = "<group>"; };
+		6B53BD3C18231B51009DA897 /* isound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isound.h; sourceTree = "<group>"; };
+		6B53BD3D18231B51009DA897 /* isoundinstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = isoundinstance.h; sourceTree = "<group>"; };
+		6B53BD5118231B51009DA897 /* musicmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = musicmanager.cpp; sourceTree = "<group>"; };
+		6B53BD5218231B51009DA897 /* musicmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicmanager.h; sourceTree = "<group>"; };
+		6B53BD5318231B51009DA897 /* sound3dlistener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sound3dlistener.cpp; sourceTree = "<group>"; };
+		6B53BD5418231B51009DA897 /* sound3dlistener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sound3dlistener.h; sourceTree = "<group>"; };
+		6B53BD5518231B51009DA897 /* soundcommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soundcommon.cpp; sourceTree = "<group>"; };
+		6B53BD5618231B51009DA897 /* soundcommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundcommon.h; sourceTree = "<group>"; };
+		6B53BD5718231B51009DA897 /* soundinstancecommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soundinstancecommon.cpp; sourceTree = "<group>"; };
+		6B53BD5818231B51009DA897 /* soundinstancecommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundinstancecommon.h; sourceTree = "<group>"; };
+		6B53BD5918231B51009DA897 /* soundmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = soundmanager.cpp; sourceTree = "<group>"; };
+		6B53BD5A18231B51009DA897 /* soundmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundmanager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B53B95118231AEB009DA897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B53B94918231AEB009DA897 = {
+			isa = PBXGroup;
+			children = (
+				6B53BD1918231B51009DA897 /* src */,
+				6B53B95518231AEB009DA897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B53B95518231AEB009DA897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B53B95418231AEB009DA897 /* libAudio.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B53BD1918231B51009DA897 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BD2418231B51009DA897 /* audio.cpp */,
+				6B53BD2518231B51009DA897 /* audio.h */,
+				6B53BD2618231B51009DA897 /* audiosystemcommon.cpp */,
+				6B53BD2718231B51009DA897 /* audiosystemcommon.h */,
+				6B53BD2D18231B51009DA897 /* FMOD */,
+				6B53BD3518231B51009DA897 /* fmodaudiosystem.cpp */,
+				6B53BD3618231B51009DA897 /* fmodaudiosystem.h */,
+				6B53BD3718231B51009DA897 /* fmodsound.cpp */,
+				6B53BD3818231B51009DA897 /* fmodsound.h */,
+				6B53BD3918231B51009DA897 /* fmodsoundinstance.cpp */,
+				6B53BD3A18231B51009DA897 /* fmodsoundinstance.h */,
+				6B53BD3B18231B51009DA897 /* iaudiosystem.h */,
+				6B53BD3C18231B51009DA897 /* isound.h */,
+				6B53BD3D18231B51009DA897 /* isoundinstance.h */,
+				6B53BD5118231B51009DA897 /* musicmanager.cpp */,
+				6B53BD5218231B51009DA897 /* musicmanager.h */,
+				6B53BD5318231B51009DA897 /* sound3dlistener.cpp */,
+				6B53BD5418231B51009DA897 /* sound3dlistener.h */,
+				6B53BD5518231B51009DA897 /* soundcommon.cpp */,
+				6B53BD5618231B51009DA897 /* soundcommon.h */,
+				6B53BD5718231B51009DA897 /* soundinstancecommon.cpp */,
+				6B53BD5818231B51009DA897 /* soundinstancecommon.h */,
+				6B53BD5918231B51009DA897 /* soundmanager.cpp */,
+				6B53BD5A18231B51009DA897 /* soundmanager.h */,
+			);
+			name = src;
+			path = ../../Libraries/Audio/src;
+			sourceTree = "<group>";
+		};
+		6B53BD2D18231B51009DA897 /* FMOD */ = {
+			isa = PBXGroup;
+			children = (
+				6B53BD2E18231B51009DA897 /* fmod.h */,
+				6B53BD2F18231B51009DA897 /* fmod.hpp */,
+				6B53BD3018231B51009DA897 /* fmod_codec.h */,
+				6B53BD3118231B51009DA897 /* fmod_dsp.h */,
+				6B53BD3218231B51009DA897 /* fmod_errors.h */,
+				6B53BD3318231B51009DA897 /* fmod_memoryinfo.h */,
+				6B53BD3418231B51009DA897 /* fmod_output.h */,
+			);
+			path = FMOD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B53B95218231AEB009DA897 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53BD6518231B51009DA897 /* audio.h in Headers */,
+				6B53BD6718231B51009DA897 /* audiosystemcommon.h in Headers */,
+				6B53BD6C18231B51009DA897 /* fmod.h in Headers */,
+				6B53BD6D18231B51009DA897 /* fmod.hpp in Headers */,
+				6B53BD6E18231B51009DA897 /* fmod_codec.h in Headers */,
+				6B53BD6F18231B51009DA897 /* fmod_dsp.h in Headers */,
+				6B53BD7018231B51009DA897 /* fmod_errors.h in Headers */,
+				6B53BD7118231B51009DA897 /* fmod_memoryinfo.h in Headers */,
+				6B53BD7218231B51009DA897 /* fmod_output.h in Headers */,
+				6B53BD7418231B51009DA897 /* fmodaudiosystem.h in Headers */,
+				6B53BD7618231B51009DA897 /* fmodsound.h in Headers */,
+				6B53BD7818231B51009DA897 /* fmodsoundinstance.h in Headers */,
+				6B53BD7918231B51009DA897 /* iaudiosystem.h in Headers */,
+				6B53BD7A18231B51009DA897 /* isound.h in Headers */,
+				6B53BD7B18231B51009DA897 /* isoundinstance.h in Headers */,
+				6B53BD8F18231B51009DA897 /* musicmanager.h in Headers */,
+				6B53BD9118231B51009DA897 /* sound3dlistener.h in Headers */,
+				6B53BD9318231B51009DA897 /* soundcommon.h in Headers */,
+				6B53BD9518231B51009DA897 /* soundinstancecommon.h in Headers */,
+				6B53BD9718231B51009DA897 /* soundmanager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B53B95318231AEB009DA897 /* Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B53B95818231AEB009DA897 /* Build configuration list for PBXNativeTarget "Audio" */;
+			buildPhases = (
+				6B53B95018231AEB009DA897 /* Sources */,
+				6B53B95118231AEB009DA897 /* Frameworks */,
+				6B53B95218231AEB009DA897 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Audio;
+			productName = Audio;
+			productReference = 6B53B95418231AEB009DA897 /* libAudio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B53B94B18231AEB009DA897 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6B53B94E18231AEB009DA897 /* Build configuration list for PBXProject "Audio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B53B94918231AEB009DA897;
+			productRefGroup = 6B53B95518231AEB009DA897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B53B95318231AEB009DA897 /* Audio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B53B95018231AEB009DA897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53BD6418231B51009DA897 /* audio.cpp in Sources */,
+				6B53BD6618231B51009DA897 /* audiosystemcommon.cpp in Sources */,
+				6B53BD7318231B51009DA897 /* fmodaudiosystem.cpp in Sources */,
+				6B53BD7518231B51009DA897 /* fmodsound.cpp in Sources */,
+				6B53BD7718231B51009DA897 /* fmodsoundinstance.cpp in Sources */,
+				6B53BD8E18231B51009DA897 /* musicmanager.cpp in Sources */,
+				6B53BD9018231B51009DA897 /* sound3dlistener.cpp in Sources */,
+				6B53BD9218231B51009DA897 /* soundcommon.cpp in Sources */,
+				6B53BD9418231B51009DA897 /* soundinstancecommon.cpp in Sources */,
+				6B53BD9618231B51009DA897 /* soundmanager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B53B95618231AEB009DA897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B53B95718231AEB009DA897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B53B95918231AEB009DA897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					../../Libraries/Audio/src,
+					../../Libraries/Math/src,
+					../../Libraries/Core/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		6B53B95A18231AEB009DA897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = _FINAL;
+				HEADER_SEARCH_PATHS = (
+					../../Libraries/Audio/src,
+					../../Libraries/Math/src,
+					../../Libraries/Core/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B53B94E18231AEB009DA897 /* Build configuration list for PBXProject "Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53B95618231AEB009DA897 /* Debug */,
+				6B53B95718231AEB009DA897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B53B95818231AEB009DA897 /* Build configuration list for PBXNativeTarget "Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53B95918231AEB009DA897 /* Debug */,
+				6B53B95A18231AEB009DA897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B53B94B18231AEB009DA897 /* Project object */;
+}

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Workbench" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="lib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="lib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Final Win32">
+				<Option output="Final Win32/libWorkbench" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Final Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-D_FINAL" />
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="./src" />
+					<Add directory="../Core/src" />
+					<Add directory="../Math/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/Actions/wbactioncomposite.cpp" />
+		<Unit filename="src/Actions/wbactioncomposite.h" />
+		<Unit filename="src/Actions/wbactiondestroy.cpp" />
+		<Unit filename="src/Actions/wbactiondestroy.h" />
+		<Unit filename="src/Actions/wbactionlog.cpp" />
+		<Unit filename="src/Actions/wbactionlog.h" />
+		<Unit filename="src/Actions/wbactionselector.cpp" />
+		<Unit filename="src/Actions/wbactionselector.h" />
+		<Unit filename="src/Actions/wbactionsendevent.cpp" />
+		<Unit filename="src/Actions/wbactionsendevent.h" />
+		<Unit filename="src/Actions/wbactionsetconfigvar.cpp" />
+		<Unit filename="src/Actions/wbactionsetconfigvar.h" />
+		<Unit filename="src/Actions/wbactionsetvariable.cpp" />
+		<Unit filename="src/Actions/wbactionsetvariable.h" />
+		<Unit filename="src/Actions/wbactiontriggerstatmod.cpp" />
+		<Unit filename="src/Actions/wbactiontriggerstatmod.h" />
+		<Unit filename="src/Actions/wbactionunqueueevent.cpp" />
+		<Unit filename="src/Actions/wbactionunqueueevent.h" />
+		<Unit filename="src/Components/wbcomplabel.cpp" />
+		<Unit filename="src/Components/wbcomplabel.h" />
+		<Unit filename="src/Components/wbcompowner.cpp" />
+		<Unit filename="src/Components/wbcompowner.h" />
+		<Unit filename="src/Components/wbcomppemap.cpp" />
+		<Unit filename="src/Components/wbcomppemap.h" />
+		<Unit filename="src/Components/wbcompreactions.cpp" />
+		<Unit filename="src/Components/wbcompreactions.h" />
+		<Unit filename="src/Components/wbcompstate.cpp" />
+		<Unit filename="src/Components/wbcompstate.h" />
+		<Unit filename="src/Components/wbcompstatmod.cpp" />
+		<Unit filename="src/Components/wbcompstatmod.h" />
+		<Unit filename="src/Components/wbcomptransform.cpp" />
+		<Unit filename="src/Components/wbcomptransform.h" />
+		<Unit filename="src/Components/wbcompvariablemap.cpp" />
+		<Unit filename="src/Components/wbcompvariablemap.h" />
+		<Unit filename="src/PEs/wbpeabs.cpp" />
+		<Unit filename="src/PEs/wbpeabs.h" />
+		<Unit filename="src/PEs/wbpeadd.cpp" />
+		<Unit filename="src/PEs/wbpeadd.h" />
+		<Unit filename="src/PEs/wbpeand.cpp" />
+		<Unit filename="src/PEs/wbpeand.h" />
+		<Unit filename="src/PEs/wbpebinaryop.cpp" />
+		<Unit filename="src/PEs/wbpebinaryop.h" />
+		<Unit filename="src/PEs/wbpeconditional.cpp" />
+		<Unit filename="src/PEs/wbpeconditional.h" />
+		<Unit filename="src/PEs/wbpeconstantbool.cpp" />
+		<Unit filename="src/PEs/wbpeconstantbool.h" />
+		<Unit filename="src/PEs/wbpeconstantfloat.cpp" />
+		<Unit filename="src/PEs/wbpeconstantfloat.h" />
+		<Unit filename="src/PEs/wbpeconstantint.cpp" />
+		<Unit filename="src/PEs/wbpeconstantint.h" />
+		<Unit filename="src/PEs/wbpeconstantstring.cpp" />
+		<Unit filename="src/PEs/wbpeconstantstring.h" />
+		<Unit filename="src/PEs/wbpeconstantvector.cpp" />
+		<Unit filename="src/PEs/wbpeconstantvector.h" />
+		<Unit filename="src/PEs/wbpediv.cpp" />
+		<Unit filename="src/PEs/wbpediv.h" />
+		<Unit filename="src/PEs/wbpedot.cpp" />
+		<Unit filename="src/PEs/wbpedot.h" />
+		<Unit filename="src/PEs/wbpegetentitybylabel.cpp" />
+		<Unit filename="src/PEs/wbpegetentitybylabel.h" />
+		<Unit filename="src/PEs/wbpegetname.cpp" />
+		<Unit filename="src/PEs/wbpegetname.h" />
+		<Unit filename="src/PEs/wbpegetstate.cpp" />
+		<Unit filename="src/PEs/wbpegetstate.h" />
+		<Unit filename="src/PEs/wbpegetvariable.cpp" />
+		<Unit filename="src/PEs/wbpegetvariable.h" />
+		<Unit filename="src/PEs/wbpelookup.cpp" />
+		<Unit filename="src/PEs/wbpelookup.h" />
+		<Unit filename="src/PEs/wbpemax.cpp" />
+		<Unit filename="src/PEs/wbpemax.h" />
+		<Unit filename="src/PEs/wbpemin.cpp" />
+		<Unit filename="src/PEs/wbpemin.h" />
+		<Unit filename="src/PEs/wbpemul.cpp" />
+		<Unit filename="src/PEs/wbpemul.h" />
+		<Unit filename="src/PEs/wbpenormal.cpp" />
+		<Unit filename="src/PEs/wbpenormal.h" />
+		<Unit filename="src/PEs/wbpenot.cpp" />
+		<Unit filename="src/PEs/wbpenot.h" />
+		<Unit filename="src/PEs/wbpenull.cpp" />
+		<Unit filename="src/PEs/wbpenull.h" />
+		<Unit filename="src/PEs/wbpeor.cpp" />
+		<Unit filename="src/PEs/wbpeor.h" />
+		<Unit filename="src/PEs/wbpeowner.cpp" />
+		<Unit filename="src/PEs/wbpeowner.h" />
+		<Unit filename="src/PEs/wbpepow.cpp" />
+		<Unit filename="src/PEs/wbpepow.h" />
+		<Unit filename="src/PEs/wbpepushcontext.cpp" />
+		<Unit filename="src/PEs/wbpepushcontext.h" />
+		<Unit filename="src/PEs/wbpequeryactionstack.cpp" />
+		<Unit filename="src/PEs/wbpequeryactionstack.h" />
+		<Unit filename="src/PEs/wbperandombool.cpp" />
+		<Unit filename="src/PEs/wbperandombool.h" />
+		<Unit filename="src/PEs/wbperandomfloat.cpp" />
+		<Unit filename="src/PEs/wbperandomfloat.h" />
+		<Unit filename="src/PEs/wbperandomint.cpp" />
+		<Unit filename="src/PEs/wbperandomint.h" />
+		<Unit filename="src/PEs/wbpeselector.cpp" />
+		<Unit filename="src/PEs/wbpeselector.h" />
+		<Unit filename="src/PEs/wbpeself.cpp" />
+		<Unit filename="src/PEs/wbpeself.h" />
+		<Unit filename="src/PEs/wbpesquare.cpp" />
+		<Unit filename="src/PEs/wbpesquare.h" />
+		<Unit filename="src/PEs/wbpestatmod.cpp" />
+		<Unit filename="src/PEs/wbpestatmod.h" />
+		<Unit filename="src/PEs/wbpesub.cpp" />
+		<Unit filename="src/PEs/wbpesub.h" />
+		<Unit filename="src/PEs/wbpeunaryop.cpp" />
+		<Unit filename="src/PEs/wbpeunaryop.h" />
+		<Unit filename="src/PEs/wbpexor.cpp" />
+		<Unit filename="src/PEs/wbpexor.h" />
+		<Unit filename="src/iwbeventobserver.h" />
+		<Unit filename="src/wbaction.cpp" />
+		<Unit filename="src/wbaction.h" />
+		<Unit filename="src/wbactionfactory.cpp" />
+		<Unit filename="src/wbactionfactory.h" />
+		<Unit filename="src/wbactions.h" />
+		<Unit filename="src/wbactionstack.cpp" />
+		<Unit filename="src/wbactionstack.h" />
+		<Unit filename="src/wbcomponent.cpp" />
+		<Unit filename="src/wbcomponent.h" />
+		<Unit filename="src/wbcomponentarrays.cpp" />
+		<Unit filename="src/wbcomponentarrays.h" />
+		<Unit filename="src/wbcomponents.h" />
+		<Unit filename="src/wbentity.cpp" />
+		<Unit filename="src/wbentity.h" />
+		<Unit filename="src/wbentityref.h" />
+		<Unit filename="src/wbevent.cpp" />
+		<Unit filename="src/wbevent.h" />
+		<Unit filename="src/wbeventmanager.cpp" />
+		<Unit filename="src/wbeventmanager.h" />
+		<Unit filename="src/wbparamevaluator.cpp" />
+		<Unit filename="src/wbparamevaluator.h" />
+		<Unit filename="src/wbparamevaluatorfactory.cpp" />
+		<Unit filename="src/wbparamevaluatorfactory.h" />
+		<Unit filename="src/wbpatternmatching.cpp" />
+		<Unit filename="src/wbpatternmatching.h" />
+		<Unit filename="src/wbpe.cpp" />
+		<Unit filename="src/wbpe.h" />
+		<Unit filename="src/wbpes.h" />
+		<Unit filename="src/wbrule.cpp" />
+		<Unit filename="src/wbrule.h" />
+		<Unit filename="src/wbscene.cpp" />
+		<Unit filename="src/wbscene.h" />
+		<Unit filename="src/wbworld.cpp" />
+		<Unit filename="src/wbworld.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

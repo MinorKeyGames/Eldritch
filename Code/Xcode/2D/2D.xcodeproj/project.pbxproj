@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B53B9E418231B0B009DA897 /* 2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53B9D318231B0B009DA897 /* 2d.h */; };
+		6B53B9EF18231B0B009DA897 /* surface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53B9DE18231B0B009DA897 /* surface.cpp */; };
+		6B53B9F018231B0B009DA897 /* surface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53B9DF18231B0B009DA897 /* surface.h */; };
+		6B53B9F118231B0B009DA897 /* surfacemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53B9E018231B0B009DA897 /* surfacemanager.cpp */; };
+		6B53B9F218231B0B009DA897 /* surfacemanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53B9E118231B0B009DA897 /* surfacemanager.h */; };
+		6B53B9F318231B0B009DA897 /* tga.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B53B9E218231B0B009DA897 /* tga.cpp */; };
+		6B53B9F418231B0B009DA897 /* tga.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B53B9E318231B0B009DA897 /* tga.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B53B8AC18231A6A009DA897 /* lib2D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = lib2D.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B53B9D318231B0B009DA897 /* 2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 2d.h; sourceTree = "<group>"; };
+		6B53B9DE18231B0B009DA897 /* surface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = surface.cpp; sourceTree = "<group>"; };
+		6B53B9DF18231B0B009DA897 /* surface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = surface.h; sourceTree = "<group>"; };
+		6B53B9E018231B0B009DA897 /* surfacemanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = surfacemanager.cpp; sourceTree = "<group>"; };
+		6B53B9E118231B0B009DA897 /* surfacemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = surfacemanager.h; sourceTree = "<group>"; };
+		6B53B9E218231B0B009DA897 /* tga.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tga.cpp; sourceTree = "<group>"; };
+		6B53B9E318231B0B009DA897 /* tga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tga.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B53B8A918231A6A009DA897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B53B8A118231A6A009DA897 = {
+			isa = PBXGroup;
+			children = (
+				6B53B9D218231B0B009DA897 /* src */,
+				6B53B8AD18231A6A009DA897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B53B8AD18231A6A009DA897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B53B8AC18231A6A009DA897 /* lib2D.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B53B9D218231B0B009DA897 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6B53B9D318231B0B009DA897 /* 2d.h */,
+				6B53B9DE18231B0B009DA897 /* surface.cpp */,
+				6B53B9DF18231B0B009DA897 /* surface.h */,
+				6B53B9E018231B0B009DA897 /* surfacemanager.cpp */,
+				6B53B9E118231B0B009DA897 /* surfacemanager.h */,
+				6B53B9E218231B0B009DA897 /* tga.cpp */,
+				6B53B9E318231B0B009DA897 /* tga.h */,
+			);
+			name = src;
+			path = ../../Libraries/2D/src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B53B8AA18231A6A009DA897 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53B9E418231B0B009DA897 /* 2d.h in Headers */,
+				6B53B9F018231B0B009DA897 /* surface.h in Headers */,
+				6B53B9F218231B0B009DA897 /* surfacemanager.h in Headers */,
+				6B53B9F418231B0B009DA897 /* tga.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B53B8AB18231A6A009DA897 /* 2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B53B8B018231A6A009DA897 /* Build configuration list for PBXNativeTarget "2D" */;
+			buildPhases = (
+				6B53B8A818231A6A009DA897 /* Sources */,
+				6B53B8A918231A6A009DA897 /* Frameworks */,
+				6B53B8AA18231A6A009DA897 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2D;
+			productName = 2D;
+			productReference = 6B53B8AC18231A6A009DA897 /* lib2D.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B53B8A318231A6A009DA897 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6B53B8A618231A6A009DA897 /* Build configuration list for PBXProject "2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B53B8A118231A6A009DA897;
+			productRefGroup = 6B53B8AD18231A6A009DA897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B53B8AB18231A6A009DA897 /* 2D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B53B8A818231A6A009DA897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B53B9EF18231B0B009DA897 /* surface.cpp in Sources */,
+				6B53B9F118231B0B009DA897 /* surfacemanager.cpp in Sources */,
+				6B53B9F318231B0B009DA897 /* tga.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B53B8AE18231A6A009DA897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B53B8AF18231A6A009DA897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B53B8B118231A6A009DA897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = (
+					../../Libraries/2D/src,
+					../../Libraries/Math/src,
+					../../Libraries/Core/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		6B53B8B218231A6A009DA897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = _FINAL;
+				HEADER_SEARCH_PATHS = (
+					../../Libraries/2D/src,
+					../../Libraries/Math/src,
+					../../Libraries/Core/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B53B8A618231A6A009DA897 /* Build configuration list for PBXProject "2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53B8AE18231A6A009DA897 /* Debug */,
+				6B53B8AF18231A6A009DA897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B53B8B018231A6A009DA897 /* Build configuration list for PBXNativeTarget "2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53B8B118231A6A009DA897 /* Debug */,
+				6B53B8B218231A6A009DA897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B53B8A318231A6A009DA897 /* Project object */;
+}

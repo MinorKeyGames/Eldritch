@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Core" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Debug/libCore" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="../zlib/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../zlib/src" />
+				</ResourceCompiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release/libCore" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add directory="../zlib/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../zlib/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Final Win32">
+				<Option output="Final Win32/libCore" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Final Win32" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LIB" />
+					<Add option="-D_FINAL" />
+					<Add directory="../zlib/src" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../zlib/src" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../zlib/Final Win32/libzlib.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/SDL2/SDL.h" />
+		<Unit filename="src/SDL2/SDL_assert.h" />
+		<Unit filename="src/SDL2/SDL_atomic.h" />
+		<Unit filename="src/SDL2/SDL_audio.h" />
+		<Unit filename="src/SDL2/SDL_bits.h" />
+		<Unit filename="src/SDL2/SDL_blendmode.h" />
+		<Unit filename="src/SDL2/SDL_clipboard.h" />
+		<Unit filename="src/SDL2/SDL_config.h" />
+		<Unit filename="src/SDL2/SDL_cpuinfo.h" />
+		<Unit filename="src/SDL2/SDL_endian.h" />
+		<Unit filename="src/SDL2/SDL_error.h" />
+		<Unit filename="src/SDL2/SDL_events.h" />
+		<Unit filename="src/SDL2/SDL_gamecontroller.h" />
+		<Unit filename="src/SDL2/SDL_gesture.h" />
+		<Unit filename="src/SDL2/SDL_haptic.h" />
+		<Unit filename="src/SDL2/SDL_hints.h" />
+		<Unit filename="src/SDL2/SDL_joystick.h" />
+		<Unit filename="src/SDL2/SDL_keyboard.h" />
+		<Unit filename="src/SDL2/SDL_keycode.h" />
+		<Unit filename="src/SDL2/SDL_loadso.h" />
+		<Unit filename="src/SDL2/SDL_log.h" />
+		<Unit filename="src/SDL2/SDL_main.h" />
+		<Unit filename="src/SDL2/SDL_messagebox.h" />
+		<Unit filename="src/SDL2/SDL_mouse.h" />
+		<Unit filename="src/SDL2/SDL_mutex.h" />
+		<Unit filename="src/SDL2/SDL_name.h" />
+		<Unit filename="src/SDL2/SDL_opengl.h" />
+		<Unit filename="src/SDL2/SDL_opengles.h" />
+		<Unit filename="src/SDL2/SDL_opengles2.h" />
+		<Unit filename="src/SDL2/SDL_pixels.h" />
+		<Unit filename="src/SDL2/SDL_platform.h" />
+		<Unit filename="src/SDL2/SDL_power.h" />
+		<Unit filename="src/SDL2/SDL_quit.h" />
+		<Unit filename="src/SDL2/SDL_rect.h" />
+		<Unit filename="src/SDL2/SDL_render.h" />
+		<Unit filename="src/SDL2/SDL_revision.h" />
+		<Unit filename="src/SDL2/SDL_rwops.h" />
+		<Unit filename="src/SDL2/SDL_scancode.h" />
+		<Unit filename="src/SDL2/SDL_shape.h" />
+		<Unit filename="src/SDL2/SDL_stdinc.h" />
+		<Unit filename="src/SDL2/SDL_surface.h" />
+		<Unit filename="src/SDL2/SDL_system.h" />
+		<Unit filename="src/SDL2/SDL_syswm.h" />
+		<Unit filename="src/SDL2/SDL_test.h" />
+		<Unit filename="src/SDL2/SDL_test_assert.h" />
+		<Unit filename="src/SDL2/SDL_test_common.h" />
+		<Unit filename="src/SDL2/SDL_test_compare.h" />
+		<Unit filename="src/SDL2/SDL_test_crc32.h" />
+		<Unit filename="src/SDL2/SDL_test_font.h" />
+		<Unit filename="src/SDL2/SDL_test_fuzzer.h" />
+		<Unit filename="src/SDL2/SDL_test_harness.h" />
+		<Unit filename="src/SDL2/SDL_test_images.h" />
+		<Unit filename="src/SDL2/SDL_test_log.h" />
+		<Unit filename="src/SDL2/SDL_test_md5.h" />
+		<Unit filename="src/SDL2/SDL_test_random.h" />
+		<Unit filename="src/SDL2/SDL_thread.h" />
+		<Unit filename="src/SDL2/SDL_timer.h" />
+		<Unit filename="src/SDL2/SDL_touch.h" />
+		<Unit filename="src/SDL2/SDL_types.h" />
+		<Unit filename="src/SDL2/SDL_version.h" />
+		<Unit filename="src/SDL2/SDL_video.h" />
+		<Unit filename="src/SDL2/begin_code.h" />
+		<Unit filename="src/SDL2/close_code.h" />
+		<Unit filename="src/TinyXML/tinyxml.cpp" />
+		<Unit filename="src/TinyXML/tinyxml.h" />
+		<Unit filename="src/TinyXML/tinyxmlerror.cpp" />
+		<Unit filename="src/TinyXML/tinyxmlparser.cpp" />
+		<Unit filename="src/allocator.cpp" />
+		<Unit filename="src/allocator.h" />
+		<Unit filename="src/allocatorchunk.cpp" />
+		<Unit filename="src/allocatorchunk.h" />
+		<Unit filename="src/array.h" />
+		<Unit filename="src/arraystack.h" />
+		<Unit filename="src/bmp-format.h" />
+		<Unit filename="src/bufferedfilestream.cpp" />
+		<Unit filename="src/bufferedfilestream.h" />
+		<Unit filename="src/checksum.cpp" />
+		<Unit filename="src/checksum.h" />
+		<Unit filename="src/clock.cpp" />
+		<Unit filename="src/clock.h" />
+		<Unit filename="src/color.h" />
+		<Unit filename="src/configmanager.cpp" />
+		<Unit filename="src/configmanager.h" />
+		<Unit filename="src/configparser.cpp" />
+		<Unit filename="src/configparser.h" />
+		<Unit filename="src/configvar.cpp" />
+		<Unit filename="src/configvar.h" />
+		<Unit filename="src/core.h" />
+		<Unit filename="src/customassert.cpp" />
+		<Unit filename="src/customassert.h" />
+		<Unit filename="src/customnew.cpp" />
+		<Unit filename="src/customnew.h" />
+		<Unit filename="src/datapipe.cpp" />
+		<Unit filename="src/datapipe.h" />
+		<Unit filename="src/display.cpp" />
+		<Unit filename="src/display.h" />
+		<Unit filename="src/dynamicmemorystream.cpp" />
+		<Unit filename="src/dynamicmemorystream.h" />
+		<Unit filename="src/exceptionhandler.h" />
+		<Unit filename="src/exceptiontrace.cpp" />
+		<Unit filename="src/exceptiontrace.h" />
+		<Unit filename="src/exceptionuploadlog.h" />
+		<Unit filename="src/file.cpp" />
+		<Unit filename="src/file.h" />
+		<Unit filename="src/filestream.cpp" />
+		<Unit filename="src/filestream.h" />
+		<Unit filename="src/hashedstring.cpp" />
+		<Unit filename="src/hashedstring.h" />
+		<Unit filename="src/hashtable.h" />
+		<Unit filename="src/icontroller.h" />
+		<Unit filename="src/idatastream.h" />
+		<Unit filename="src/iinputsystemobserver.h" />
+		<Unit filename="src/inputcontext.cpp" />
+		<Unit filename="src/inputcontext.h" />
+		<Unit filename="src/inputsystem.cpp" />
+		<Unit filename="src/inputsystem.h" />
+		<Unit filename="src/interpolator.h" />
+		<Unit filename="src/keyboard.cpp" />
+		<Unit filename="src/keyboard.h" />
+		<Unit filename="src/list.h" />
+		<Unit filename="src/map.h" />
+		<Unit filename="src/mathcore.h" />
+		<Unit filename="src/memorystream.cpp" />
+		<Unit filename="src/memorystream.h" />
+		<Unit filename="src/mouse.cpp" />
+		<Unit filename="src/mouse.h" />
+		<Unit filename="src/multimap.h" />
+		<Unit filename="src/packstream.cpp" />
+		<Unit filename="src/packstream.h" />
+		<Unit filename="src/printmanager.cpp" />
+		<Unit filename="src/printmanager.h" />
+		<Unit filename="src/profiler.cpp" />
+		<Unit filename="src/profiler.h" />
+		<Unit filename="src/profilerhook.cpp" />
+		<Unit filename="src/profilerhook.h" />
+		<Unit filename="src/profilertable.cpp" />
+		<Unit filename="src/profilertable.h" />
+		<Unit filename="src/reversehash.cpp" />
+		<Unit filename="src/reversehash.h" />
+		<Unit filename="src/set.h" />
+		<Unit filename="src/simplestring.cpp" />
+		<Unit filename="src/simplestring.h" />
+		<Unit filename="src/stack.h" />
+		<Unit filename="src/stopwatch.cpp" />
+		<Unit filename="src/stopwatch.h" />
+		<Unit filename="src/stringmanager.cpp" />
+		<Unit filename="src/stringmanager.h" />
+		<Unit filename="src/test.cpp" />
+		<Unit filename="src/test.h" />
+		<Unit filename="src/timer.cpp" />
+		<Unit filename="src/timer.h" />
+		<Unit filename="src/versions.h" />
+		<Unit filename="src/windowwrapper.cpp" />
+		<Unit filename="src/windowwrapper.h" />
+		<Unit filename="src/xinputcontroller.cpp" />
+		<Unit filename="src/xinputcontroller.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
